@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:og="http://ogp.me/ns#">
+
+<head>
+    <title>AstroTarot|Весы — гороскоп на сегодня и завтра</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    </script>
+    <meta name="keywords" content="" />
+    <meta name="description" content="Весы — гороскоп на сегодня и завтра, описывает тенденции и события на день. Гороскоп на сегодня и завтра составляется с учетом аспектов планет и влияния Луны на знак Зодиака" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <link href="style/selectbox.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="style/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/ani.js"></script>
+    <script type="text/javascript" src="js/slyder.js"></script>
+    <script type="text/javascript" src="js/jquery.selectbox.min.js"></script>
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="js/social.js"></script>
+    <script type="text/javascript" src="js/magic_slyder.js"></script>
+
+    <meta property="og:image" content="http://astrotarot.ruimg/images/AstroTarot_1.png" />
+    <link rel="image_src" href="http://astrotarot.ruimg/images/AstroTarot_1.png" />
+    <meta property="og:image" content="http://astrotarot.ruimg/images/AstroTarot_2.png" />
+    <link rel="image_src" href="http://astrotarot.ruimg/images/AstroTarot_2.png" />
+    <meta property="og:description" content="" />
+
+
+</head>
+
+<body>
+    <div id="top">
+        <div class="top_wrap">
+            <div id="top_info" style="margin-top:25px;">
+                <div id="logo">
+                    <a href="/"><img src="img/images/logo.png" alt=""></a>
+                </div>
+                <div id="info_center">
+                    <div id="search">
+                        <form action="/search">
+                            <input id="input" name="query" value="Я ищу..." type="text" />
+                            <input id="send" type="submit" value="" />
+                        </form>
+                    </div>
+                    <div id="subscribe">
+                        <span>например, <span id="podstava">расклад на любовь</span></span>
+                        <span id="sub1">подписаться</span>
+                        <a target="_blank" href="https://www.facebook.com/groups/628871420540971/"><img src="img/images/facebook.png" alt=""></a>
+                        <a target="_blank" href="https://vk.com/club71399535"><img src="img/images/vk.png" alt=""></a>
+                        <a target="_blank" href="https://twitter.com/Astro_Tarot_ru"><img src="img/images/twitter.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="registration">
+                    <a href="/user/registration">Регистрация</a>&nbsp; или
+                    <div id="enter">Войти</div>
+                    <div id="enter_form">
+                        <div class="header_min">Войти</div>
+                        <div class="enter_form_content">
+                            <form id="auth-form">
+                                <input class="enter_form_text" value="адрес e-mail" name="email" type="text" />
+                                <div id="email-error" class="wrong_text"></div>
+                                <input class="enter_form_text" value="пароль" name="pass" type="password" />
+                                <div id="pass-error" class="wrong_text"></div>
+                                <div class="forget"><a href="javascript:void(0)">Забыли пароль?</a></div>
+                                <div class="check_left">
+                                    <label>
+                                        <input class="check" type="checkbox" /><span>Запомнить меня</span></label>
+                                </div>
+                                <input class="enter_send" type="image" id="auth-submit" src="img/images/enter_form_button.png" />
+                            </form>
+                            <form id="recover-form" style="display:none;">
+                                <input class="enter_form_text" value="адрес e-mail" name="remail" type="text" />
+                                <div class="forget"><a href="javascript:void(0)">Авторизоваться</a></div>
+                                <input class="enter_send" type="image" id="recover-submit" src="img/images/enter_form_button_recover.png" />
+                                <div id="password-sended" class="check_left" style="display:none;">
+                                    <span style="color:green;">Новый пароль выслан на указанную почту</span>
+                                </div>
+                            </form>
+                            <div class="clear"></div>
+                            <div id="socnet">
+                                <div>Войти через социальную сеть</div>
+                                <!-- <div id="vk_auth"></div> -->
+                                <a id="fb_auth" href="javascript:void(0)"><img src="img/images/socnet1_min.png" alt=""></a>
+                                <a id="vk_auth" href="javascript:void(0)"><img src="img/images/socnet2_min.png" alt=""></a>
+                                <a href="https://api.twitter.com/oauth/authorize?oauth_token=fi2Oi9jv1OdjUFY65IlNO5p3aaunxQU7"><img src="img/images/socnet3_min.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div id="reg_new_user"><a href="/user/registration">Регистрация</a> нового пользователя</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <div class="top_wrap">
+                <div id="menu_left">
+                    <div class="lilac_item corner_vip">
+                        <a href="/horoscope">Гороскопы</a>
+                    </div>
+                </div>
+                <div id="menu_right">
+                    <div class="lilac_item">
+                        <a href="/news">Новости</a>
+                    </div>
+                    <div class="lilac_item">
+                        <a href="/statyi">Статьи</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="content_wrap">
+            <div id="orange_sign">
+                <div class="orange_sign_item">
+                    <a href="/horoscope/aries/today">Овен</a>
+                </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/taurus/today">Телец</a>
+                </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/gemini/today">Близнецы</a>
+                </div>
+                <div class="orange_sign_item">
+                    <a href="/horoscope/cancer/today">Рак</a>
+                </div>
+                <div class="orange_sign_item">
+                    <a href="/horoscope/leo/today">Лев</a>
+                </div>
+                <div class="orange_sign_item">
+                    <a href="/horoscope/virgo/today">Дева</a>
+                </div>
+                <div class="orange_sign_item" id="you_here">
+                    Весы </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/scorpio/today">Скорпион</a>
+                </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/sagittarius/today">Стрелец</a>
+                </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/capricorn/today">Козерог</a>
+                </div>
+                <div class="orange_sign_item2">
+                    <a href="/horoscope/aquarius/today">Водолей</a>
+                </div>
+                <div class="orange_sign_item orange_sign_last">
+                    <a href="/horoscope/pisces/today">Рыбы</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="white_space">
+                <div id="deep_page">
+                    <a href="/">Главная</a><span class="span_arrow">→</span><a id="breadcrumbs-horoscope-list" href="/horoscope">Гороскопы</a><span class="span_arrow">→</span>Весы — гороскопы </div>
+                <div class="tri_header">Весы — гороскопы</div>
+                <div id="columns">
+                    <div id="column1">
+                        <div class="vote_ask">
+                            <div class="vote_header">Какие прогнозы вы считаете самыми правдивыми?</div>
+                            <div class="vote_content">
+                                <form>
+                                    <label>
+                                        <input name="4" type="checkbox">
+                                        <div>Прогнозы ченнелеров (контактеров с инопланетными цивилизациями)</div>
+                                    </label>
+                                    <label>
+                                        <input name="3" type="checkbox">
+                                        <div>Прогнозы нумерологов</div>
+                                    </label>
+                                    <label>
+                                        <input name="2" type="checkbox">
+                                        <div>Прогнозы астрологов</div>
+                                    </label>
+                                    <label>
+                                        <input name="1" type="checkbox">
+                                        <div>Прогнозы экстрасенсов</div>
+                                    </label>
+                                    <input id="poll" type="submit" value="Голосовать">
+                                </form>
+                            </div>
+                        </div>
+                        <div id="orange_menu">
+                            <div class="menu_left_item">
+                                <div id="horoscope-menu-block" class="menu_header">
+                                    Гороскопы<img alt="" src="img/images/menu_arrow.png">
+                                </div>
+                                <div class="menu_content">
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/aries/today"><span>21.03-20.04 - </span>Овен</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/taurus/today"><span>21.04-20.05 - </span>Телец</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/gemini/today"><span>21.05-21.06 - </span>Близнецы</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/cancer/today"><span>22.06-22.07 - </span>Рак</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/leo/today"><span>23.07-23.08 - </span>Лев</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/virgo/today"><span>24.08-23.09 - </span>Дева</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/libra/today"><span>24.09-23.10 - </span>Весы</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/scorpio/today"><span>24.10-22.11 - </span>Скорпион</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/sagittarius/today"><span>23.11-21.12 - </span>Стрелец</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/capricorn/today"><span>22.12-20.01 - </span>Козерог</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/aquarius/today"><span>21.01-20.02 - </span>Водолей</a>
+                                    </div>
+                                    <div class="menu_content_item">
+                                        <a href="/horoscope/pisces/today"><span>21.02-20.03 - </span>Рыбы</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="column2">
+                        <div id="all_horo">
+                            <div class="sign_top">
+                                <img src="img/images/libra.png" alt="" />
+                                <div class="item_header"><span>Весы</span>
+                                    <br />24 сентбря - 23 октября</div>
+                                <div class="feature">
+                                    <a href="/horoscope/libra/simple">Весы — характеристика знака →</a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div id="packs">
+                                <div id="horo_pack">
+                                    <div class="item_header">Гороскоп на сегодня</div>
+                                    <div class="data">
+                                        May 16, 2015 </div>
+                                    <div class="text">
+                                        <p>
+                                            <strong>Любовь, семья</strong>
+                                            <br /> Этот день &ndash; один из наиболее благоприятных периодов для представителей знака Весы. Сегодня Весы излучают положительную энергию, чем притягивают к себе внимание противоположного пола. Сегодня в личной жизни представителей знака Весы могут произойти благоприятные перемены; возможно знакомство, в неожиданном месте и в неожиданное время. Сегодня Весы способны притягивать благоприятные ситуации с помощью силы мыслей, желаний. Если вы хотите что-то изменить в своих любовных или семейных отношениях, сконцентрируйтесь на своих желаниях, и они непременно исполняться. Хороший день для медитации</p>
+                                        <p>
+                                            <strong>Работа</strong>
+                                            <br /> Сегодня Весы могут рассчитывать на помощь и поддержку влиятельных лиц, начальства. И хотя сегодня звезды не слишком располагают деловой и финансовой активности, Весы могут достичь хороших результатов, благодаря обаянию и общительности. Не исключено, что некоторые деловые связи сегодня могут перерасти в романтические, а многие деловые партнеры противоположно пола будут настолько сражены харизматичностью Весов, что станут их тайными поклонниками. Возможно получение прибыли и подарков</p>
+                                        <p>
+                                            <strong>Здоровье</strong>
+                                            <br /> Сегодня звезды рекомендуют Весам расслабиться и получить удовольствие от жизни. Однако, представителям этого знака нужно придерживаться &laquo;золотой середины&raquo; в своих желаниях. Постарайтесь не злоупотреблять сладостями и интимными удовольствиями. Благоприятное воздействие сегодня оказывают поездки, смена обстановки, посещение культурных мероприятий</p>
+                                    </div>
+                                </div>
+                                <div id="horo_pack">
+                                    <div class="item_header">Гороскоп на завтра</div>
+                                    <div class="data">
+                                        May 17, 2015 </div>
+                                    <div class="text">
+                                        <p>
+                                            <strong>Любовь, семья</strong>
+                                            <br /> Сегодня вы ощутите необычайное творческое вдохновение. Этот день принесет вам неожиданные знакомства и перспективные связи, возможно, деловые отношения перерастут в романтические</p>
+                                        <p>
+                                            <strong>Работа</strong>
+                                            <br /> Особенно благоприятный день для Весов, чья деятельность связана с общественностью. Друзья и единомышленники сегодня окажут помощь и поддержку в решении важных вопросов. Сегодня вы можете рассчитывать на прибыль или получение подарков</p>
+                                        <p>
+                                            <strong>Здоровье</strong>
+                                            <br /> Вам сегодня не следует экспериментировать с диетами, так как этот может привести к расстройствам пищеварительной системы</p>
+                                    </div>
+                                </div>
+                                <p style="text-align: right;">
+                                    <span style="color:#d3d3d3;">Авторский материал</span>
+                                    <br> &copy; AstroTarot.ru
+                                </p>
+
+                            </div>
+                                <script type="text/javascript">
+                                    (function() {
+                                        if (window.pluso)
+                                            if (typeof window.pluso.start == "function") return;
+                                        if (window.ifpluso == undefined) {
+                                            window.ifpluso = 1;
+                                            var d = document,
+                                                s = d.createElement('script'),
+                                                g = 'getElementsByTagName';
+                                            s.type = 'text/javascript';
+                                            s.charset = 'UTF-8';
+                                            s.async = true;
+                                            s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                                            var h = d[g]('body')[0];
+                                            h.appendChild(s);
+                                        }
+                                    })();
+                                </script>
+
+                                <div class="soc_line">
+                                    <div data-user="727286693" class="pluso" data-background="transparent" data-options="big,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,facebook,twitter,email"></div>
+                                </div>
+                            </div>
+                            <div id="comments">
+                                <div class="item_header">Отзывы</div>
+                                <div class="the_same_comment">
+                                    <div class="the_same_header">Для добавления комментария:</div>
+                                    <div class="the_same_header">Необходимо <a class="ident-enter" href="#">авторизоваться</a> или <a href="/user/registration">зарегистрироваться</a></div>
+                                </div>
+                                <div id="comments-items">
+                                </div>
+                            </div>
+                            <div id="abuse-comment-form" style="z-index:1000;">
+                                <div class="reference">
+                                    <form>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <textarea id="abuse-field" rows="3" cols="29"></textarea>
+                                                    <input type="hidden" id="comment" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="button" style="position:static">
+                                                                    <div class="button_left"></div>
+                                                                    <div class="button_content">
+                                                                        <a href="javascript:void(0)" onclick="sendAbuse()">Оставить жалобу</a></div>
+                                                                    <div class="button_right"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="button" style="position:static">
+                                                                    <div class="button_left"></div>
+                                                                    <div class="button_content">
+                                                                        <a href="javascript:void(0)" onclick="closeAbuse()">Отмена</a></div>
+                                                                    <div class="button_right"></div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="column3">
+                        <div id="vklad">
+                            <div class="actual_header">Гороскопы</div>
+                            <div id="vklad_content">
+                                <div class="vklad_item_active">
+                                    <img src="img/images/horo_corner.png" alt="" /> Гороскоп на сегодня и завтра </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/business-compability">Гороскоп совместимости</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/love-compability">Любовная совместимость</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/simple">Характеристика знака</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/profession">Гороскоп профессии</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/karma">Кармический гороскоп</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/health">Гороскоп здоровья</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/child">Гороскоп ребенка</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/business">Бизнес гороскоп</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/month">Гороскоп на месяц</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/year">Гороскоп на 2015 год</a>
+                                </div>
+                                <div class="vklad_item">
+                                    <img src="img/images/horo_corner.png" alt="" />
+                                    <a href="/horoscope/libra/next-year">Гороскоп на 2016 год</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="popular">
+                            <div class="popular_header">Популярное на сайте</div>
+                            <div class="popular_item">
+                                <div class="popular_count">1</div>
+                                <div class="popular_text">
+                                    <span>Книга перемен</span>
+                                    <br />
+                                    <a href="/gadaniya/book/kniga-peremen/26-kniga-peremen">
+                    Книга перемен               </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="popular_item">
+                                <div class="popular_count">2</div>
+                                <div class="popular_text">
+                                    <span>Книга перемен</span>
+                                    <br />
+                                    <a href="/gadaniya/book/kniga-peremen/32-lyubovnaya-kniga-peremen">
+                    Любовная книга перемен              </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="popular_item">
+                                <div class="popular_count">3</div>
+                                <div class="popular_text">
+                                    <span>Таро</span>
+                                    <br />
+                                    <a href="/gadaniya/taro/obschie-gadaniya/30-rasklad--karta-dnya">
+                    Расклад — Карта Дня             </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="popular_item">
+                                <div class="popular_count">4</div>
+                                <div class="popular_text">
+                                    <span>Таро</span>
+                                    <br />
+                                    <a href="/gadaniya/taro/lyubov-i-otnosheniya/378-rasklad--lyubit-ne-lyubit">
+                    Расклад — Любит, не любит               </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="popular_item">
+                                <div class="popular_count">5</div>
+                                <div class="popular_text">
+                                    <span>Руны</span>
+                                    <br />
+                                    <a href="/gadaniya/rune/traditsionnyie-raskladyi/31-rasklad--runa-dnya">
+                    Расклад — Руна дня              </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="popular_item">
+                                <div class="popular_count">6</div>
+                                <div class="popular_text">
+                                    <span>Таро</span>
+                                    <br />
+                                    <a href="/gadaniya/taro/rabota-biznes-karera/55-rasklad--prognoz-professionalnoy-jizni">
+                    Расклад — Прогноз профессиональной жизни                </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <!-- <div class="banner_right_200x350">
+                            <a href="/service/divination/gadanie-na-lyubov" target="blank">
+                                <img src="img/ad/54d7cf12641bf.jpg" alt="">
+                            </a>
+                        </div> -->
+                        <div id="right_hrskp">
+                            <div class="actual_header">Гороскопы</div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small1.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/aries/today"><span>Овен</span><br />21.03-20.04</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small2.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/taurus/today"><span>Телец</span><br />21.04-20.05</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small3.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/gemini/today"><span>Близнецы</span><br />21.05-21.06</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small4.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/cancer/today"><span>Рак</span><br />22.06-22.07</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small5.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/leo/today"><span>Лев</span><br />23.07-23.08</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small6.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/virgo/today"><span>Дева</span><br />24.08-23.09</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small7.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/libra/today"><span>Весы</span><br />24.09-23.10</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small8.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/scorpio/today"><span>Скорпион</span><br />24.10-22.11</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small9.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/sagittarius/today"><span>Стрелец</span><br />23.11-21.12</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small10.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/capricorn/today"><span>Козерог</span><br />22.12-20.01</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small11.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/aquarius/today"><span>Водолей</span><br />21.01-20.02</a></div>
+                            </div>
+                            <div class="hrskp_item">
+                                <img src="img/images/sign_small12.png" alt="" />
+                                <div class="item_header"><a href="/horoscope/pisces/today"><span>Рыбы</span><br />21.02-20.03</a></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="more"><a href="/horoscope">все гороскопы →</a></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="bottom_text">
+                        <div class="text_open">
+                            Проект Астро Таро посвящен самым интересным и популярным предсказательным системам, таким как астрология, нумерология, гадания на картах Таро и классических картах, руны, гадания по книге перемен И-цзын и многое другое. На Астро Таро вы можете найти онлайн гадания на картах Таро и обычных, классических картах на самые разнообразные темы, получить ответы на самые волнующие вопросы. Наш проект содержит множество разделов онлайн гаданий, посвященных самым важным жизненным сферам, таким как: любовь, отношения, здоровье, семья, дети, будущее, судьба, путешествия, поездки, работа, бизнес, карьера, недвижимость, потеря, пропажа, порча, сглаз и другие разделы, посвященные важным вопросам. А гороскопы и астрологические и нумерологические прогнозы, составленные командой опытных и профессиональных астрологов и нумерологов, помогут вам получить больше информации о себе, своих родных и близких или просто знакомых. Гороскоп, составленный по Солнечному знаку Зодиака, поможет определить характер человека, его способности, таланты, наклонности. В разделах, посвященных астрологии и нумерологии вы можете узнать астрологический и нумерологический прогноз на сегодня, завтра, месяц и год для любого знака Зодиака, а так же узнать о своем предназначении с помощью бесплатного персонального кармического гороскопа.
+                            <div class="text_roll">
+                                Если вы следите за ритмами Луны, на Астро Таро для вас всегда открыт самый подробный Лунный календарь. Наш Лунный календарь содержит много интересной и полезной информации о влиянии Луны, смены ее фаз и положений в знаках Зодиака. Мы постарались как можно интереснее и доступнее описать каждый Лунный день, чтобы предоставить возможность нашим посетителям заранее планировать начало новых дел и принятия важных решений. Лунный календарь стрижки, свадьбы, здоровья, зачатия, бизнеса поможет вам подобрать наиболее благоприятный день для вышеперечисленных мероприятий, а Лунный календарь садовода поможет подобрать самые благоприятные периоды для ухода за растениями. Так же вы можете получить много интересной и полезной информации о магии, узнать магические обряды и заговоры по привлечению удачи, денег, любви, здоровья и благополучия, по избавлению от негативного магического воздействия, сглаза и порчи.
+                            </div>
+                        </div>
+                        <div class="open_text">
+                            <span>развернуть</span> ↓
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <!-- end of columns -->
+            </div>
+            <!-- end of whitespace -->
+        </div>
+        <!-- end of content wrap -->
+    </div>
+    <!-- end of content -->
+    <div id="footer">
+        <div id="up"></div>
+        <div id="footer_wrap">
+            <div id="footer_line1">
+                <div id="footer_logo"></div>
+                <div id="footer_links">
+                    <a href="/statyi/content/17-no-tag/46-o-proekte">О проекте</a>
+                    <a href="/statyi/content/17-no-tag/47-reklama-na-sayte">Реклама</a>
+                    <a id="footer-feedback" href="javascript:void(0)">Техподдержка</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="footer_line2">
+                <div id="footer_subscribe">
+                    <span id="footer_sub1">подписаться</span>
+                    <a target="_blank" href="https://www.facebook.com/groups/628871420540971/"><img src="img/images/facebook.png" alt=""></a>
+                    <a target="_blank" href="https://vk.com/club71399535"><img src="img/images/vk.png" alt=""></a>
+                    <a target="_blank" href="https://twitter.com/Astro_Tarot_ru"><img src="img/images/twitter.png" alt=""></a>
+                </div>
+                <div id="copyright">© 2015 "AstroTarot"</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
