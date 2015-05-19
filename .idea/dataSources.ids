@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - zodiacool@localhost" uuid="b6dfb237-bb06-42ac-9e6c-7999bb603a41">
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="zodiacool"/>
+    <table name="horoscope" schema="" catalog="zodiacool" type="TABLE">
+      <column name="horoscope_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_sign" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="horoscope_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <primary-key name="PRIMARY" columns="horoscope_id"/>
+      <foreign-key name="horoscope_ibfk_1" columns="id_sign" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="sign" schema="" catalog="zodiacool" type="TABLE">
+      <column name="sign_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="sign_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="sign_date" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="image" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="sign_id"/>
+      <exported-key name="horoscope_ibfk_1" table="horoscope" schema="" catalog="zodiacool" columns="id_sign"/>
+    </table>
+    <table name="user" schema="" catalog="zodiacool" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_sign" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="70" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+    </table>
+  </data-source>
+</component>
