@@ -1227,3 +1227,7 @@ img.comp_sign {margin-top:10px; float:left;}
 .sonnik_new_block .sonnik_new_header {margin-bottom:10px; font-family:'Trebuchet MS'; font-size:21px; line-height:21px; color:#fc6500;}
 .sonnik_new_block .text {margin-bottom:20px;}
 .sonnik_new_block .text span {font-weight:bold;}
+
+.sign_small_img img{
+    margin-left: 25px;
+}

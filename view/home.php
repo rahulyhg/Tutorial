@@ -1,4 +1,6 @@
 <?php
+
+require_once('view/include/constructor.php');
 echo '<div id="top">
     <div class="top_wrap">
         <div id="top_info" style="margin-top:25px;">
@@ -112,105 +114,12 @@ echo '<div id="top">
             <div class="slyder_dot" num="6"></div>
         </div>
         <div id="horoscope">
-            <div class="header">Гороскопы</div>
-            <div class="left_block">
-                <div class="sign_small_item">
-                    <div id="sign_small_img1"></div>
-                    <div class="sign_small_text">
-                        <span>Овен</span>
-                        <br />21.03-20.04
-                        <input type="hidden" value="aries" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img2"></div>
-                    <div class="sign_small_text">
-                        <span>Телец</span>
-                        <br />21.04-20.05
-                        <input type="hidden" value="taurus" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img3"></div>
-                    <div class="sign_small_text">
-                        <span>Близнецы</span>
-                        <br />21.05-21.06
-                        <input type="hidden" value="gemini" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img4"></div>
-                    <div class="sign_small_text">
-                        <span>Рак</span>
-                        <br />22.06-22.07
-                        <input type="hidden" value="cancer" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img5"></div>
-                    <div class="sign_small_text">
-                        <span>Лев</span>
-                        <br />23.07-23.08
-                        <input type="hidden" value="leo" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img6"></div>
-                    <div class="sign_small_text">
-                        <span>Дева</span>
-                        <br />24.08-23.09
-                        <input type="hidden" value="virgo" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img7"></div>
-                    <div class="sign_small_text">
-                        <span>Весы</span>
-                        <br />24.09-23.10
-                        <input type="hidden" value="libra" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img8"></div>
-                    <div class="sign_small_text">
-                        <span>Скорпион</span>
-                        <br />24.10-22.11
-                        <input type="hidden" value="scorpio" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img9"></div>
-                    <div class="sign_small_text">
-                        <span>Стрелец</span>
-                        <br />23.11-21.12
-                        <input type="hidden" value="sagittarius" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img10"></div>
-                    <div class="sign_small_text">
-                        <span>Козерог</span>
-                        <br />22.12-20.01
-                        <input type="hidden" value="capricorn" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img11"></div>
-                    <div class="sign_small_text">
-                        <span>Водолей</span>
-                        <br />21.01-20.02
-                        <input type="hidden" value="aquarius" />
-                    </div>
-                </div>
-                <div class="sign_small_item">
-                    <div id="sign_small_img12"></div>
-                    <div class="sign_small_text">
-                        <span>Рыбы</span>
-                        <br />21.02-20.03
-                        <input type="hidden" value="pisces" />
-                    </div>
-                </div>
-            </div>
+            <div class="header">Horoscop</div>
+            <div class="left_block">';
+                foreach($allSigns as $item){
+                    CreateSignSmallItem($item);
+                }
+            echo '</div>
             <div class="right_block">
                 <div id="horo_arrow">
                     <div class="arrow_left"></div>
