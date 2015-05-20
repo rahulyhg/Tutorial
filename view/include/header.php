@@ -26,7 +26,7 @@ echo '<head>
                     </form>
                 </div>
                 <div id="subscribe">
-                    <span>например, <span id="podstava">расклад на любовь</span></span>
+                    <span>exemplu, <span id="podstava">leu</span></span>
                     <span id="sub1">подписаться</span>
                     <a target="_blank" href="https://www.facebook.com/groups/628871420540971/"><img src="img/images/facebook.png" alt=""></a>
                     <a target="_blank" href="https://vk.com/club71399535"><img src="img/images/vk.png" alt=""></a>

@@ -19,6 +19,9 @@ else if(isset($_REQUEST['section']))
     if(file_exists('controller/'.$_REQUEST['section'].'.php')) {
         include_once('controller/' . $_REQUEST['section'] . '.php');
     }
+    else if(file_exists('controller-xhr/'.$_REQUEST['section'].'.php')){
+        include_once('controller-xhr/'.$_REQUEST['section'].'.php');
+    }
     else{
         //ProcessError();
         echo 'not-found';
