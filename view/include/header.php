@@ -16,7 +16,7 @@ echo '<head>
     <div class="top_wrap">
         <div id="top_info" style="margin-top:25px;">
             <div id="logo">
-                <a href="'.ROOT_HOST.'home"><img src="img/images/logo.png" alt=""></a>
+                <a href="'.ROOT_HOST.'home"><img src="'.ROOT_HOST.'view/images/logo.png" alt=""></a>
             </div>
             <div id="info_center">
                 <div id="search">
