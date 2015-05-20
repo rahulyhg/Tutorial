@@ -213,18 +213,18 @@ textarea {resize:vertical;}
 .sign_small_text {font-size:12px; color:#a8a8a8; text-align:center;}
 .sign_small_text span {font-size:15px; color:#000;}
 #sign_small_img1, #sign_small_img2, #sign_small_img3, #sign_small_img4, #sign_small_img5, #sign_small_img6, #sign_small_img7, #sign_small_img8, #sign_small_img9, #sign_small_img10, #sign_small_img11, #sign_small_img12 {height:50px; margin-bottom:5px;}
-#sign_small_img1 {background:url(../images/aries-small.png) bottom center no-repeat;}
-#sign_small_img2 {background:url(../images/taurus-small.png) bottom center no-repeat;}
-#sign_small_img3 {background:url(../images/gemini.png) bottom center no-repeat;}
-#sign_small_img4 {background:url(../images/sign_small4.png) bottom center no-repeat;}
-#sign_small_img5 {background:url(../images/sign_small5.png) bottom center no-repeat;}
-#sign_small_img6 {background:url(../images/sign_small6.png) bottom center no-repeat;}
-#sign_small_img7 {background:url(../images/sign_small7.png) bottom center no-repeat;}
-#sign_small_img8 {background:url(../images/sign_small8.png) bottom center no-repeat;}
-#sign_small_img9 {background:url(../images/sign_small9.png) bottom center no-repeat;}
-#sign_small_img10 {background:url(../images/sign_small10.png) bottom center no-repeat;}
-#sign_small_img11 {background:url(../images/sign_small11.png) bottom center no-repeat;}
-#sign_small_img12 {background:url(../images/sign_small12.png) bottom center no-repeat;}
+#sign_small_img1 {background:url(../images/small/aries-small.png) bottom center no-repeat;}
+#sign_small_img2 {background:url(../images/small/taurus-small.png) bottom center no-repeat;}
+#sign_small_img3 {background:url(../images/small/gemini-small.png) bottom center no-repeat;}
+#sign_small_img4 {background:url(../images/small/cancer-small.png) bottom center no-repeat;}
+#sign_small_img5 {background:url(../images/small/leo-small.png) bottom center no-repeat;}
+#sign_small_img6 {background:url(../images/small/virgo-small.png) bottom center no-repeat;}
+#sign_small_img7 {background:url(../images/small/libra-small.png) bottom center no-repeat;}
+#sign_small_img8 {background:url(../images/small/scorpio-small.png) bottom center no-repeat;}
+#sign_small_img9 {background:url(../images/small/sagittarius-small.png) bottom center no-repeat;}
+#sign_small_img10 {background:url(../images/small/capricorn-small.png) bottom center no-repeat;}
+#sign_small_img11 {background:url(../images/small/aquarius-small.png) bottom center no-repeat;}
+#sign_small_img12 {background:url(../images/small/pisces-small.png) bottom center no-repeat;}
 #horoscope > div.right_block {width:550px; padding-right:20px; padding-left:24px; position:relative;}
 #horo_arrow {width:110px; height:50px; position:absolute; top:15px; left:460px; z-index:3;}
 .arrow_left {width:50px; height:50px; margin-right:10px; background:url(../../img/images/horoscope_arrow_left.png); cursor:pointer; float:left;}
@@ -233,18 +233,18 @@ textarea {resize:vertical;}
 .arrow_right:hover {background:url(../../img/images/horoscope_arrow_right_active.png);}
 .sign_item {height:330px; position:relative; display:none;}
 #sign_img1, #sign_img2, #sign_img3, #sign_img4, #sign_img5, #sign_img6, #sign_img7, #sign_img8, #sign_img9, #sign_img10, #sign_img11, #sign_img12 {width:94px; height:91px; margin-bottom:10px; float:left;}
-#sign_img1 {background:url(../../img/images/sign1.png) center no-repeat;}
-#sign_img2 {background:url(../../img/images/sign2.png) center no-repeat;}
-#sign_img3 {background:url(../../img/images/sign3.png) center no-repeat;}
-#sign_img4 {background:url(../../img/images/sign4.png) center no-repeat;}
-#sign_img5 {background:url(../../img/images/sign5.png) center no-repeat;}
-#sign_img6 {background:url(../../img/images/sign6.png) center no-repeat;}
-#sign_img7 {background:url(../../img/images/sign7.png) center no-repeat;}
-#sign_img8 {background:url(../../img/images/sign8.png) center no-repeat;}
-#sign_img9 {background:url(../../img/images/sign9.png) center no-repeat;}
-#sign_img10 {background:url(../../img/images/sign10.png) center no-repeat;}
-#sign_img11 {background:url(../../img/images/sign11.png) center no-repeat;}
-#sign_img12 {background:url(../../img/images/sign12.png) center no-repeat;}
+#sign_img1 {background:url(../images/big/aries.png) center no-repeat;}
+#sign_img2 {background:url(../images/big/taurus.png) center no-repeat;}
+#sign_img3 {background:url(../images/big/gemini.png) center no-repeat;}
+#sign_img4 {background:url(../images/big/cancer.png) center no-repeat;}
+#sign_img5 {background:url(../images/big/leo.png) center no-repeat;}
+#sign_img6 {background:url(../images/big/virgo.png) center no-repeat;}
+#sign_img7 {background:url(../images/big/libra.png) center no-repeat;}
+#sign_img8 {background:url(../images/big/scorpio.png) center no-repeat;}
+#sign_img9 {background:url(../images/big/sagittarius.png) center no-repeat;}
+#sign_img10 {background:url(../images/big/capricorn.png) center no-repeat;}
+#sign_img11 {background:url(../images/big/aquarius.png) center no-repeat;}
+#sign_img12 {background:url(../images/big/pisces.png) center no-repeat;}
 .sign_item div.item_header {margin-left:20px; margin-top:18px; font-size:14px; color:#a8a8a8; float:left;}
 .sign_item div.item_header span {font-size:22px; color:#000;}
 .sign_item_header {font-size:18px; color:#000;}

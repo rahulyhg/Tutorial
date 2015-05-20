@@ -14,7 +14,7 @@
 
     function GetSignHoroscopeForToday($bdd, $sign){
         $currentDate = date('Y-m-d', time());
-        $req = $bdd->prepare('select sign_name,description from sign s INNER JOIN horoscope h
+        $req = $bdd->prepare('select sign_name,sign_date, description, horoscope_date from sign s INNER JOIN horoscope h
                                                                         on s.sign_id = h.id_sign
                                                                         WHERE  h.horoscope_date=? and s.sign_name=?');
         $req->execute(array($currentDate, $sign));
@@ -22,24 +22,22 @@
         $signHoroscope = array();
         while($row = $req->fetch()){
             $signHoroscope[$i]['sign_name'] = $row['sign_name'];
+            $signHoroscope[$i]['sign_date'] = $row['sign_date'];
             $signHoroscope[$i]['description'] = $row['description'];
+            $signHoroscope[$i]['date'] = $row['horoscope_date'];
             $i++;
         }
         return $signHoroscope;
     }
 
-    function GetAllSignsWithDescription($bdd){
-        $currentDate = date('Y-m-d', time());
-        $req = $bdd->prepare('select sign_name, sign_date, description from sign s INNER join horoscope h
-                                                                                   ON s.sign_id = h.id_sign
-                                                                                   where h.horoscope_date=?');
-        $req->execute(array($currentDate));
+    function GetSignList($bdd){
+        $req = $bdd->prepare('select sign_name, sign_date from sign');
+        $req->execute(array());
         $i = 0;
         $allSigns = array();
         while($row = $req->fetch()){
             $allSigns[$i]['sign_name'] = $row['sign_name'];
             $allSigns[$i]['sign_date'] = $row['sign_date'];
-            $allSigns[$i]['description'] = $row['description'];
             $i++;
         }
         return $allSigns;
