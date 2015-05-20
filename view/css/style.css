@@ -29,7 +29,7 @@ textarea {resize:vertical;}
 .text {color:#434c5c;}
 .button {position:absolute; bottom:30px; right:20px; cursor:pointer;}
 .button div {float:left;}
-.button_left {width:35px; height:37px; background:url(../../img/images/orange_button_left.png);}
+.button_left {width:35px; height:37px; background:url(../images/orange_button_left.png);}
 .button_content {height:37px; background:url(../../img/images/orange_button_content.png) repeat-x;}
 .button_content a {line-height:35px; color:#fff; font-size:15px; text-decoration:none;}
 .button_right {width:35px; height:37px; background:url(../../img/images/orange_button_right.png);}
@@ -213,18 +213,18 @@ textarea {resize:vertical;}
 .sign_small_text {font-size:12px; color:#a8a8a8; text-align:center;}
 .sign_small_text span {font-size:15px; color:#000;}
 #sign_small_img1, #sign_small_img2, #sign_small_img3, #sign_small_img4, #sign_small_img5, #sign_small_img6, #sign_small_img7, #sign_small_img8, #sign_small_img9, #sign_small_img10, #sign_small_img11, #sign_small_img12 {height:50px; margin-bottom:5px;}
-#sign_small_img1 {background:url(../images/small/aries-small.png) bottom center no-repeat;}
-#sign_small_img2 {background:url(../images/small/taurus-small.png) bottom center no-repeat;}
-#sign_small_img3 {background:url(../images/small/gemini-small.png) bottom center no-repeat;}
-#sign_small_img4 {background:url(../images/small/cancer-small.png) bottom center no-repeat;}
-#sign_small_img5 {background:url(../images/small/leo-small.png) bottom center no-repeat;}
-#sign_small_img6 {background:url(../images/small/virgo-small.png) bottom center no-repeat;}
-#sign_small_img7 {background:url(../images/small/libra-small.png) bottom center no-repeat;}
-#sign_small_img8 {background:url(../images/small/scorpio-small.png) bottom center no-repeat;}
-#sign_small_img9 {background:url(../images/small/sagittarius-small.png) bottom center no-repeat;}
-#sign_small_img10 {background:url(../images/small/capricorn-small.png) bottom center no-repeat;}
-#sign_small_img11 {background:url(../images/small/aquarius-small.png) bottom center no-repeat;}
-#sign_small_img12 {background:url(../images/small/pisces-small.png) bottom center no-repeat;}
+#sign_small_img1 {background:url(../images/small/aries.png) bottom center no-repeat;}
+#sign_small_img2 {background:url(../images/small/taurus.png) bottom center no-repeat;}
+#sign_small_img3 {background:url(../images/small/gemini.png) bottom center no-repeat;}
+#sign_small_img4 {background:url(../images/small/cancer.png) bottom center no-repeat;}
+#sign_small_img5 {background:url(../images/small/leo.png) bottom center no-repeat;}
+#sign_small_img6 {background:url(../images/small/virgo.png) bottom center no-repeat;}
+#sign_small_img7 {background:url(../images/small/libra.png) bottom center no-repeat;}
+#sign_small_img8 {background:url(../images/small/scorpio.png) bottom center no-repeat;}
+#sign_small_img9 {background:url(../images/small/sagittarius.png) bottom center no-repeat;}
+#sign_small_img10 {background:url(../images/small/capricorn.png) bottom center no-repeat;}
+#sign_small_img11 {background:url(../images/small/aquarius.png) bottom center no-repeat;}
+#sign_small_img12 {background:url(../images/small/pisces.png) bottom center no-repeat;}
 #horoscope > div.right_block {width:550px; padding-right:20px; padding-left:24px; position:relative;}
 #horo_arrow {width:110px; height:50px; position:absolute; top:15px; left:460px; z-index:3;}
 .arrow_left {width:50px; height:50px; margin-right:10px; background:url(../../img/images/horoscope_arrow_left.png); cursor:pointer; float:left;}
@@ -341,7 +341,8 @@ textarea {resize:vertical;}
 
 #up {width:74px; height:74px; background:url(../../img/images/up.png); position:fixed; right:80px; top:30px; cursor:pointer;}
 
-.orange_sign_item, .orange_sign_item2, .orange_sign_item3, .orange_sign_item4 {width:66px; height:35px; margin-right:10px; background-color:#ff6601; line-height:35px; text-align:center; cursor:pointer; float:left;}
+.orange_sign_item {width:74px; height:35px; margin-right:10px; background-color:#ff6601; line-height:35px; text-align:center; cursor:pointer; float:left;}
+.orange_sign_item :last-child{width: 80px;}
 .orange_sign_item2 {width:85px;}
 .orange_sign_item3 {width:100px;}
 .orange_sign_item4 {width:150px;}
@@ -791,7 +792,7 @@ img.comp_sign {margin-top:10px; float:left;}
 .rgstr:hover {width:432px; height:140px; padding:21px; border:none; background-color:#eeeaf1;}
 .vhod2 {margin-top:25px;}
 
-#columns > div.right_block {width:429px; margin-bottom:80px; padding:20px; border:1px dashed #aaaaaa;}
+#columns > div.right_block {width:429px; margin-bottom:80px; border:1px dashed #aaaaaa;}
 #columns > div.right_block2 {width:469px; height:185px; margin-bottom:80px; float:left;}
 .prem_header {margin-bottom:30px; font-size:20px; color:#000;}
 .prem_header2 {margin-bottom:10px; font-size:20px; color:#000;}
@@ -1007,7 +1008,7 @@ img.comp_sign {margin-top:10px; float:left;}
 #footer {min-width:1016px; height:156px; background:url(../../img/images/footer_back.png) left no-repeat #151515; position:relative;}
 #footer_wrap {width:970px; margin:0 auto;}
 #footer_line1 {height:80px; border-bottom:1px solid #434856;}
-#footer_logo {width:140px; height:38px; margin-top:19px; background:url(../../img/images/logo_footer.png); float:left;}
+#footer_logo {width:140px; height:38px; margin-top:19px; float:left;}
 #footer_links {margin-left:35px; margin-top:30px; float:left;}
 #footer_links a {margin-right:35px; font-size:15px; color:#fff;}
 #counters {width:351px; height:31px; margin-top:22px; float:right;}
@@ -1230,4 +1231,45 @@ img.comp_sign {margin-top:10px; float:left;}
 
 .sign_small_img img{
     margin-left: 25px;
+}
+.space-down{
+    width: 100%;
+    height: 20px;
+}
+
+#register{
+    float: right;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #ff7709;
+    color: #ffffff;
+    cursor: pointer;
+    outline: medium none;
+    border: 1px solid #CACACA;
+    font-size: 15px;
+}
+
+#login{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #ff7709;
+    color: #ffffff;
+    cursor: pointer;
+    outline: medium none;
+    border: 1px solid #CACACA;
+    font-size: 15px;
+}
+
+#reset-password{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #ff7709;
+    color: #ffffff;
+    cursor: pointer;
+    outline: medium none;
+    border: 1px solid #CACACA;
+    font-size: 15px;
 }

@@ -3,7 +3,7 @@
     function CreateSignSmallItem($smallItem, $Content){
         echo '<div class="sign_small_item">
                     <div class="sign_small_img">
-                        <img src="'.ROOT_HOST.'view/images/small/'.$smallItem['sign_name'].'-small.png"/>
+                        <img src="'.ROOT_HOST.'view/images/small/'.$smallItem['sign_name'].'.png"/>
                     </div>
                     <div class="sign_small_text">
                         <span>'.$Content[$smallItem['sign_name']].'</span>
@@ -49,7 +49,7 @@
         <div class="top_wrap">
             <div id="menu_left">
                 <div class="lilac_item">
-                    <a href="/horoscope">Horoscop</a>
+                    <a href="'.ROOT_HOST.'horoscope/aries">Horoscop</a>
                 </div>
             </div>
             <div id="menu_right">
@@ -76,7 +76,7 @@
                     <div class="clear"></div>
                     <div class="sign_item_header">'.$Content[$sign['sign_name']].' — horscopul pentru astazi</div>
                     <div class="data">
-                        May 16, 2015 </div>
+                        '.GetMonth(date('m', strtotime($sign['horoscope_date']))).' '.date('d', strtotime($sign['horoscope_date'])).', '.date('Y', time()).' </div>
                     <div class="text">
                         '.$sign['description'].' ... <a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'">mai mult →</a></div>
                     <div class="button" style="bottom:45px;">
@@ -86,4 +86,39 @@
                     </div>
                     <div class="clear"></div>
                 </div>';
+    }
+
+    function CreatePanelRightHoroscopeViewOnePage($sign, $Content){
+        echo '<div class="hrskp_item">
+                        <img src="'.ROOT_HOST.'view/images/small/'.$sign['sign_name'].'.png" alt="" />
+                        <div class="item_header"><a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'"><span>'.$Content[$sign['sign_name']].'</span><br />'.$sign['sign_date'].'</a></div>
+                    </div>';
+    }
+
+    function CreateLeftMenuViewOnePage($allSigns, $Content){
+        echo '<div id="orange_menu">
+                        <div class="menu_left_item">
+                            <div id="horoscope-menu-block" class="menu_header">
+                            Horoscop<img alt="" src="'.ROOT_HOST.'view/images/menu_arrow.png">
+                            </div>
+
+                            <div class="menu_content">';
+                                foreach($allSigns as $sign) {
+                                    echo '<div class="menu_content_item">';
+                                        echo '<a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'"><span>'.$sign['sign_date'].' - </span>'.$Content[$sign['sign_name']].'</a>';
+                                    echo '</div>';
+                                }
+                            echo '</div>';
+                        echo'</div>';
+    }
+
+    function CreateTopTabsViewOnePage($allSigns, $Content){
+        echo '<div id="orange_sign">';
+            foreach($allSigns as $sign) {
+                echo '<div class="orange_sign_item">';
+                    echo '<a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'">'.$Content[$sign['sign_name']].'</a>';
+                echo '</div>';
+            }
+            echo '<div class="clear"></div>';
+        echo '</div>';
     }

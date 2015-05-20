@@ -817,7 +817,7 @@ $(document).ready(function() {
 		var footerHeight = $('#footer').height();
 		var topHeight = $('#top, #top_info').height();
 		if(whiteHeight + footerHeight < windowHeight) {
-			$('#white_space').height(windowHeight - topHeight - footerHeight)
+			//$('#white_space').height(windowHeight - topHeight - footerHeight)
 		}
 	}
 	footerBottom();

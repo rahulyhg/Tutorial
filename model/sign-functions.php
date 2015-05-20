@@ -20,14 +20,24 @@
         $req->execute(array($currentDate, $sign));
         $i = 0;
         $signHoroscope = array();
-        while($row = $req->fetch()){
-            $signHoroscope[$i]['sign_name'] = $row['sign_name'];
-            $signHoroscope[$i]['sign_date'] = $row['sign_date'];
-            $signHoroscope[$i]['description'] = $row['description'];
-            $signHoroscope[$i]['date'] = $row['horoscope_date'];
-            $i++;
+
+        return $signHoroscope = $req->fetchAll();
+    }
+
+    function GetSignHoroscopeForTomorrow($bdd, $sign){
+        $tomorrowDate = new DateTime('tomorrow');
+        $req = $bdd->prepare('select sign_name,sign_date, description, horoscope_date from sign s INNER JOIN horoscope h
+                                                                        on s.sign_id = h.id_sign
+                                                                        WHERE  h.horoscope_date=? and s.sign_name=?');
+        $req->execute(array($tomorrowDate->format('Y-m-d'), $sign));
+
+        $signHoroscope = $req->fetchAll();
+        if(count($signHoroscope) != 0){
+            return $signHoroscope;
         }
-        return $signHoroscope;
+        else{
+            $signHoroscope['empty'] = 'empty';
+        }
     }
 
     function GetSignList($bdd){
@@ -42,4 +52,6 @@
         }
         return $allSigns;
     }
+
+
 

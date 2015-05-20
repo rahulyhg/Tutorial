@@ -1,3 +1,8 @@
 <?php
-require_once('model/sign-functions.php');
-    print_r(GetSignList($bdd));
+    require_once('model/sign-functions.php');
+    $Content = parse_ini_file('language/content.ini');
+    $allSigns = GetSignList($bdd);
+    $i = 0;
+    $signData = GetSignHoroscopeForToday($bdd,$_REQUEST['section1'])[0];
+    $signDataTomorrow = GetSignHoroscopeForTomorrow($bdd, $_REQUEST['section1'])[0];
+

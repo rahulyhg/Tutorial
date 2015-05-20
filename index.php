@@ -9,7 +9,7 @@ if(substr($_SERVER['DOCUMENT_ROOT'], -1) == '/') {
 }
 
 require_once('model/database.inc.php');
-//require_once('model/global-functions.php');
+require_once('model/global-functions.php');
 
 if(!isset($_REQUEST['section'])){
     include_once('controller/home.php');
