@@ -29,7 +29,6 @@
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/slyder.js"></script>
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/jquery.selectbox.min.js"></script>
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/default.js"></script>
-    <script type="text/javascript" src="'.ROOT_HOST.'view/js/social.js"></script>
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/magic_slyder.js"></script>
     </body>
     </html> ';

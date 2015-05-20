@@ -9,19 +9,16 @@ echo '<div id="content">
             <div id="slyde1" onclick="window.location.href="/gadaniya/rune/lyubov-i-otnosheniya"" style="cursor:pointer">
                 <img src="'.ROOT_HOST.'view/images/slider/553d184b7ee68.jpg" alt="" />
             </div>
-            <div id="slyde2" onclick="window.location.href="/statyi/content/12-astrologiya/255-retrogradnyiy-saturn-v-skorpione--15-iyunya-2015"" style="cursor:pointer">
-                <img src="'.ROOT_HOST.'view/images/slider/5534091ca5638.jpg" alt="" />
-            </div>
-            <div id="slyde3" onclick="window.location.href="/gadaniya/taro/semya-i-deti/394-rasklad--ottsyi-i-deti"" style="cursor:pointer">
+            <div id="slyde2" onclick="window.location.href="/gadaniya/taro/semya-i-deti/394-rasklad--ottsyi-i-deti"" style="cursor:pointer">
                 <img src="'.ROOT_HOST.'view/images/slider/552c3a0ec7b11.jpg" alt="" />
             </div>
-            <div id="slyde4" onclick="window.location.href="/numerology"" style="cursor:pointer">
+            <div id="slyde3" onclick="window.location.href="/numerology"" style="cursor:pointer">
                 <img src="'.ROOT_HOST.'view/images/slider/55219a9c107b8.jpg" alt="" />
             </div>
-            <div id="slyde5" onclick="window.location.href="/statyi/content/12-astrologiya/241-kalendar-strijek-blagopriyatnyie-dni"" style="cursor:pointer">
+            <div id="slyde4" onclick="window.location.href="/statyi/content/12-astrologiya/241-kalendar-strijek-blagopriyatnyie-dni"" style="cursor:pointer">
                 <img src="'.ROOT_HOST.'view/images/slider/55216b2f39a19.jpg" alt="" />
             </div>
-            <div id="slyde6" onclick="window.location.href="/gadaniya/book/kniga-peremen/26-kniga-peremen"" style="cursor:pointer">
+            <div id="slyde5" onclick="window.location.href="/gadaniya/book/kniga-peremen/26-kniga-peremen"" style="cursor:pointer">
                 <img src="'.ROOT_HOST.'view/images/slider/552196215ba13.jpg" alt="" />
             </div>
         </div>
@@ -31,7 +28,6 @@ echo '<div id="content">
             <div class="slyder_dot" num="3"></div>
             <div class="slyder_dot" num="4"></div>
             <div class="slyder_dot" num="5"></div>
-            <div class="slyder_dot" num="6"></div>
         </div>
         <div id="horoscope">
             <div class="header">Horoscop</div>

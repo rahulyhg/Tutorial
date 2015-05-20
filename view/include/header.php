@@ -21,7 +21,7 @@ echo '<head>
             <div id="info_center">
                 <div id="search">
                     <form action="/search">
-                        <input id="input" name="query" value="Я ищу..." type="text" />
+                        <input id="input" name="query" value="Cauta..." type="text" />
                         <input id="send" type="submit" value="" />
                     </form>
                 </div>
@@ -37,7 +37,7 @@ echo '<head>
                 <a href="/user/registration">Inregistrare</a>&nbsp; sau
                 <div id="enter">Intra</div>
                 <div id="enter_form">
-                    <div class="header_min">Войти</div>
+                    <div class="header_min">Intra</div>
                     <div class="enter_form_content">
                         <form id="auth-form">
                             <input class="enter_form_text" value="адрес e-mail" name="email" type="text" />
