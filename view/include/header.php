@@ -38,7 +38,7 @@ echo '<head>
                 <div id="enter_form">
                     <div class="header_min">Intra</div>
                     <div class="enter_form_content">
-                        <form id="auth-form">
+                        <form id="auth-form" action = "javascript:void(0);" method="POST">
                             <input class="enter_form_text" value="adresa e-mail" name="email" type="text" />
                             <div id="email-error" class="wrong_text"></div>
                             <input class="enter_form_text" value="parola" name="password" type="password" />

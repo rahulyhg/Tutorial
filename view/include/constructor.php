@@ -24,7 +24,7 @@
             </div>
             <div class="button">
                 <div class="button_left"></div>
-                <div class="button_content"><a href="/user/">Inregistrare</a></div>
+                <div class="button_content"><a href="'.ROOT_HOST.'registration">Inregistrare</a></div>
                 <div class="button_right"></div>
             </div>
         </div>';

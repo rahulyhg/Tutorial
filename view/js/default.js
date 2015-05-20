@@ -1,4 +1,38 @@
 $(document).ready(function(){
+    var ROOT_HOST = '/zodiacool/';
+    $('#login').click(function(){
+        SubmitForm('auth-form', ROOT_HOST+'user/login' );
+    });
+
+    $('#register').click(function(){
+       SubmitForm('simple', ROOT_HOST+'user/registration');
+    });
+
+    function SubmitForm(formId, url){
+        var fd = new FormData(document.getElementById(formId));
+        $.ajax({
+            url: url,
+            type: "POST",
+            data: fd,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false   // tell jQuery not to set contentType
+        }).done(function(data) {
+            if(data['errors'] != undefined){
+                //CreateErrorOnFields(data['errors']);
+                alert(data);
+            }
+            else if(data['success'] == true){
+                ResetFormFields(formId);
+            }
+        }).fail(function(data) {
+            //alert(data);
+        });
+    }
+
+    function ResetFormFields(formId){
+        $('#'+formId)[0].reset();
+    }
+
 	$('select').selectbox();
 	$('#auth-submit').click(function(){
 		$.post(

@@ -38,16 +38,11 @@ echo '
                     </div>
                     <div id="vklad_reg_content">
                         <div class="vklad_reg_item">
-
-                            <form id="simple" action="#" method="post" >
+                            <form id="simple" action = "javascript:void(0);" method="POST" >
                                 <span>Adresa e-mail<img src="must.png" alt=""></span><br>
-
-                                <input name="email" id="email" value="" class="reg_form" type="text">		<span>Parola<img src="must.png" alt=""></span><br>
-
-                                <input name="password" id="pass" value="" class="reg_form" type="password">		<span>Confirmati parola<img src="must.png" alt=""></span><br>
-
+                                <input name="email" id="email" value="" class="reg_form" type="text"><span>Parola<img src="must.png" alt=""></span><br>
+                                <input name="password" id="pass" value="" class="reg_form" type="password">	<span>Confirmati parola<img src="must.png" alt=""></span><br>
                                 <input name="password-confirm" id="pass_confirm" value="" class="reg_form" type="password">
-
                                 <div class="check_left">
                                     <label>
                                         <input name="agree" value="" type="hidden"><input name="agree" id="agree" value="1" class="check" type="checkbox"><span> Sunt de acord cu termenii si conditiile Zodia Cool</span></label>
@@ -66,28 +61,21 @@ echo '
                     </div>
                 </div>
                 <div class="right_block">
-                    <div class="prem_header">Что мне даст полная регистрация?</div>
+                    <div class="prem_header">De ce sa ma inregistrez?</div>
                     <div class="prem_item">
-                        <img src="prem_img1.png" alt="">
-                        <div class="item_header">Гороскопы</div>
+                        <img src="'.ROOT_HOST.'view/images/prem_img1.png" alt="">
+                        <div class="item_header">Horoscop</div>
                         <div class="text">
-                            Заходя на сайт, вы имеете возможность читать свой гороскоп сразу, не тратя время на поиск. Активируется функция отправки на e-mail вашего гороскопа (ежедневный, на неделю, на месяц, на год). Возможность заказа персонального гороскопа.
+                            Prin accesarea site-ului, aveți posibilitatea de a citi horoscopul imediat, fără a petrece timp căutând. Activat funcția trimite e-mail horoscopul (zilnic, săptămânal, lunar, timp de un an). Posibilitatea de a comanda un horoscop personal.
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <div class="prem_item">
-                        <img src="prem_img2.png" alt="">
-                        <div class="item_header">Гадания</div>
-                        <div class="text">
-                            Появляется возможность добавлять понравившиеся гадания в избранные. Заходя на сайт, вы получаете Таро-прогноз на сегодня (карта дня). Возможность заказа персонального толкования расклаа.
-                        </div>
-                        <div class="clear"></div>
-                    </div>
+
                     <div class="prem_item" id="prem_last">
-                        <img src="prem_img3.png" alt="">
-                        <div class="item_header">Нумерология</div>
+                        <img src="'.ROOT_HOST.'view/images/prem_img3.png" alt="">
+                        <div class="item_header">Numerologie</div>
                         <div class="text">
-                            Вы получаете персональный нумерологический расчет. Активируется функция отправки на e-mail вашего нумерологического прогноза (ежедневный, на месяц, на год). Возможность заказа персонального нумерологического прогноза.
+                            Ai un calcul numerologica personalizat. Funcția activată trimite e-mail pentru a forecast numerologica (zilnic, lunar, timp de un an). Oferte Prognoza personal numerologica.
                         </div>
                         <div class="clear"></div>
                     </div>
