@@ -9,7 +9,7 @@
                     <img src="'.ROOT_HOST.'view/images/footer_logo.png"/>
                 </div>
                 <div id="footer_links">
-                    <a href="/statyi/content/17-no-tag/46-o-proekte">Despre noi</a>
+                    <a href="'.ROOT_HOST.'about">Despre noi</a>
                     <a href="/statyi/content/17-no-tag/47-reklama-na-sayte">Publicitate</a>
                 </div>
                 <div class="clear"></div>
