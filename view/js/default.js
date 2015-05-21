@@ -16,6 +16,30 @@ $(document).ready(function(){
         });
     });
 
+    $('#calculate-life-duration').click(function(){
+        var fd = new FormData(document.getElementById('life-duration'));
+        $.ajax({
+            url: ROOT_HOST+'application/life-duration/calculate',
+            type: "POST",
+            data: fd,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false   // tell jQuery not to set contentType
+        }).done(function(data) {
+            if(data['errors'] != undefined){
+                //CreateErrorOnFields(data['errors']);
+                alert(data);
+            }
+            else if(data['success'] == true){
+                ResetFormFields(formId);
+                if(data['url'] != undefined) {
+                    window.location.href = data['url'];
+                }
+            }
+        }).fail(function(data) {
+            //alert(data);
+        });
+    });
+
     function SubmitForm(formId, url){
         var fd = new FormData(document.getElementById(formId));
         $.ajax({
