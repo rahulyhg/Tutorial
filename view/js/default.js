@@ -8,6 +8,14 @@ $(document).ready(function(){
        SubmitForm('simple', ROOT_HOST+'user/registration');
     });
 
+    $('#logout').click(function(){
+        $.post(ROOT_HOST+'user/logout', {'action': 'reload'}, function(data){
+            if(data['url'] != undefined){
+                window.location.href = data['url'];
+            }
+        });
+    });
+
     function SubmitForm(formId, url){
         var fd = new FormData(document.getElementById(formId));
         $.ajax({
@@ -23,6 +31,9 @@ $(document).ready(function(){
             }
             else if(data['success'] == true){
                 ResetFormFields(formId);
+                if(data['url'] != undefined) {
+                    window.location.href = data['url'];
+                }
             }
         }).fail(function(data) {
             //alert(data);

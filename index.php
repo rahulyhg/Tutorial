@@ -1,6 +1,7 @@
 <?php
 
 define('ROOT_HOST', '/zodiacool/');
+session_start();
 
 if(substr($_SERVER['DOCUMENT_ROOT'], -1) == '/') {
     define('UPLOAD_DIR', $_SERVER['DOCUMENT_ROOT'] . substr(ROOT_HOST, 1) . 'upload');

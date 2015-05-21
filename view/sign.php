@@ -74,16 +74,18 @@ echo '
                         <div class="soc_line">
                             <div data-user="727286693" class="pluso" data-background="transparent" data-options="big,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,facebook,twitter,email"></div>
                         </div>
-                    </div>
-                    <div id="comments">
+                    </div>';
+                   if(!isset($_SESSION['user_id'])) {
+                       echo '<div id="comments">
                         <div class="item_header">Mai multe</div>
                         <div class="the_same_comment">
-                            <div class="the_same_header"><a class="ident-enter" href="#">Logare</a> sau <a href="'.ROOT_HOST.'registration">inregistrare</a></div>
+                            <div class="the_same_header"><a class="ident-enter" href="#">Logare</a> sau <a href="' . ROOT_HOST . 'registration">inregistrare</a></div>
                         </div>
                         <div id="comments-items">
                         </div>
-                    </div>
-                    <div id="abuse-comment-form" style="z-index:1000;">
+                    </div>';
+                   }
+                    echo '<div id="abuse-comment-form" style="z-index:1000;">
                         <div class="reference">
                             <form>
                                 <table>

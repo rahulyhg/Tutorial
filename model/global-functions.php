@@ -36,3 +36,7 @@ function GetMonth($month){
     }
     return $current;
 }
+
+function Redirect($newURL){
+    header('Location: ', $newURL);
+}
