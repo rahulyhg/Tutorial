@@ -57,9 +57,9 @@ echo '<div id="content">
                                 <div class="header">Calendarul lunii</div>
                                 <div class="left_block"><img src="'.ROOT_HOST.'view/images/moon.png" alt=""></div>
                                 <div class="right_block">
-                                    <div class="moon_header">In curind <a indepth="true" href="#">2015</a><br></div>
+                                    <div class="moon_header">In curind <a indepth="true" href="#"></a><br></div>
                                                             <div class="moon_text">
-                                                                                                                                                                                                                                   Луна в знаке Овен<br>
+                                                            <br>
                                                                 </div>
                                                         </div>
                                 <div class="clear"></div>

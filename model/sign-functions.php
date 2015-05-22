@@ -11,7 +11,6 @@
             return false;
         }
     }
-
     function GetSignHoroscopeForToday($bdd, $sign){
         $currentDate = date('Y-m-d', time());
         $req = $bdd->prepare('select sign_name,sign_date, description, horoscope_date from sign s INNER JOIN horoscope h
@@ -23,7 +22,6 @@
 
         return $signHoroscope = $req->fetchAll();
     }
-
     function GetSignHoroscopeForTomorrow($bdd, $sign){
         $tomorrowDate = new DateTime('tomorrow');
         $req = $bdd->prepare('select sign_name,sign_date, description, horoscope_date from sign s INNER JOIN horoscope h
@@ -39,18 +37,39 @@
             $signHoroscope['empty'] = 'empty';
         }
     }
-
     function GetSignList($bdd){
-        $req = $bdd->prepare('select sign_name, sign_date from sign');
+        $req = $bdd->prepare('select sign_id,sign_name, sign_date from sign');
         $req->execute(array());
         $i = 0;
         $allSigns = array();
         while($row = $req->fetch()){
             $allSigns[$i]['sign_name'] = $row['sign_name'];
             $allSigns[$i]['sign_date'] = $row['sign_date'];
+            $allSigns[$i]['sign_id'] = $row['sign_id'];
             $i++;
         }
         return $allSigns;
+    }
+    function ExistSignId($bdd, $signId){
+        $req = $bdd->prepare('select count(sign_id) from sign WHERE sign_id=?');
+        $req->execute(array($signId));
+        $result = $req->fetch()['count(sign_id)'];
+        if($result != 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    function GetCompatibilityDescription($bdd, $sign1, $sign2){
+        $req = $bdd->prepare('select description from compatibility WHERE
+                                                                    sign1 = ? and sign2 = ?');
+        $req->execute(array(
+            $sign1,
+            $sign2
+        ));
+        return $req->fetch()['description'];
     }
 
 
