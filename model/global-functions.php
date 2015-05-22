@@ -40,3 +40,7 @@ function GetMonth($month){
 function Redirect($newURL){
     header('Location: ', $newURL);
 }
+
+function IsDataValid($month, $day, $year){
+    return checkdate($month, $day, $year);
+}

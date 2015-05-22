@@ -52,6 +52,11 @@
                     <a href="'.ROOT_HOST.'horoscope/aries">Horoscop</a>
                 </div>
             </div>
+            <div id="menu_left">
+                <div class="lilac_item">
+                    <a href="'.ROOT_HOST.'application/life-duration">Cifrele vietii</a>
+                </div>
+            </div>
             <div id="menu_right">
                 <div class="lilac_item">
                     <a href="/news">Noutati</a>
@@ -121,4 +126,21 @@
             }
             echo '<div class="clear"></div>';
         echo '</div>';
+    }
+
+    function CreateFeedbackForm(){
+        echo '<div style="right: -385px;" id="feedback">
+        <div id="feedback_button"></div>
+            <form action="http://astrotarot.ru/numerology/personal/identity">
+                <span>Nume<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
+                <input value="" id="feedback-name" class="feedback_form_text" size="30" type="text"><br>
+                <span>Аdresa de e-mail<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
+                <input id="feedback-email" class="feedback_form_text" value="" size="30" type="text"><br>
+                <span>Mesaj<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
+                <textarea id="feedback-content" class="feedback_form_text2"></textarea>
+                <div id="feedback-sended" style="display: none;"><span style="color: white;">Scrisoare a fost trimisa</span></div>
+                <button id="send-feedback">Trimite</button>
+                <div id="nope">Inapoi</div>
+            </form>
+        </div>';
     }

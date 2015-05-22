@@ -1,21 +1,8 @@
 <?php
 require_once('view/include/constructor.php');
     CreateMenu();
-    echo '<div style="right: -385px;" id="feedback">
-        <div id="feedback_button"></div>
-        <form action="http://astrotarot.ru/numerology/personal/identity">
-            <span>Ваше имя<img src="must.png" alt=""></span><br>
-            <input value="" id="feedback-name" class="feedback_form_text" size="30" type="text"><br>
-            <span>Адрес эл. почты<img src="must.png" alt=""></span><br>
-            <input id="feedback-email" class="feedback_form_text" value="используйте действующий адрес" size="30" type="text"><br>
-            <span>Письмо<img src="must.png" alt=""></span><br>
-            <textarea id="feedback-content" class="feedback_form_text2"></textarea>
-            <div id="feedback-sended" style="display: none;"><span style="color: white;">Письмо отправлено</span></div>
-            <input id="feedback-send" class="feedback_send" src="feedback_send.png" type="image">
-            <div id="nope">Я передумал</div>
-        </form>
-    </div>
-</div>    <div id="content">
+    CreateFeedbackForm();
+echo '</div>    <div id="content">
     <div id="content_wrap">
         <div id="orange_sign">
 
@@ -24,113 +11,22 @@ require_once('view/include/constructor.php');
 
             <div class="tri_header">Cifrele vietii</div>
             <div id="columns">
-                <div id="column1">
-                    <div id="orange_menu">
-                        <div class="menu_left_item">
-                            <div id="horoscope-menu-block" class="menu_header">
-                                Гороскопы<img alt="" src="menu_arrow.png">
-                            </div>
-                            <div class="menu_content">
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/aries/today"><span>21.03-20.04 - </span>Овен</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/taurus/today"><span>21.04-20.05 - </span>Телец</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/gemini/today"><span>21.05-21.06 - </span>Близнецы</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/cancer/today"><span>22.06-22.07 - </span>Рак</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/leo/today"><span>23.07-23.08 - </span>Лев</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/virgo/today"><span>24.08-23.09 - </span>Дева</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/libra/today"><span>24.09-23.10 - </span>Весы</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/scorpio/today"><span>24.10-22.11 - </span>Скорпион</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/sagittarius/today"><span>23.11-21.12 - </span>Стрелец</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/capricorn/today"><span>22.12-20.01 - </span>Козерог</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/aquarius/today"><span>21.01-20.02 - </span>Водолей</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/pisces/today"><span>21.02-20.03 - </span>Рыбы</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu_left_item">
-                            <div id="taro-menu-block" class="menu_header">
-                                Таро<img alt="" src="menu_arrow.png">
-                            </div>
-                            <div class="menu_content">
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/lyubov-i-otnosheniya">Любовь и отношения</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/obschie-gadaniya">Общие гадания</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/rabota-biznes-karera">Работа, бизнес, карьера</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/zdorove">Здоровье</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/samopoznanie">Самопознание</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/buduschee-i-sudba">Будущее и судьба</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/puteshestvie-i-poezdki">Путешествие и поездки</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/nedvijimost">Недвижимость</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/poterya-propaja">Потеря, пропажа</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/porcha-sglaz">Порча, сглаз</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/semya-i-deti">Семья и дети</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/gadaniya/taro/svyatochnyie-gadaniya">Святочные гадания</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu_left_item">
-                        </div>
-                        <div class="menu_left_item">
-                        </div>
-
-
-                    </div>
+                <div id="column1">';
+                    CreateLeftMenuViewOnePage($allSigns, $Content);
+                echo '
+                </div>
                 </div>
                 <div id="column2">
                     <div id="opisanie">
                         <div class="item_header">Cifrele vietii</div>
                         <div class="text">
-                            Число личности показывает, в основном, особенности характера человека, его эмоциональный, физический и духовный потенциал. Число личности показывает, как человек воспринимается окружающими				</div>
+                            Stii citi ani ai trait. Dar cite zile ? Sau ore ? Chiar si cite minute ? Vei ramine surprins de aceste cifre.</div>
                         <div class="clear"></div>
                     </div>
                     <div id="num_content">
                         <div class="num_what">
                             <img src="'.ROOT_HOST.'view/images/num_what.png" alt="" title="">
-                            <div class="text">Для отображения информации необходим нумерологический рассчет. Заполните, пожалуйста, форму и нажмите кнопку “Рассчитать”</div>
+                            <div class="text">Pentru a afisa informatiile necesare este nevoie de calcul numerologic.Vă rugăm să completați formularul și faceți click pe "Calculeaza"</div>
                             <div class="clear"></div>
                         </div>
 
@@ -140,15 +36,15 @@ require_once('view/include/constructor.php');
                                     <div class="num_calc1_form">
                                         <span>Zile</span><br>
 
-                                        <input name="fname" id="day" value="" type="text">				</div>
+                                        <input name="fname" id="day" value="0" type="text" disabled>				</div>
                                     <div class="num_calc1_form" id="num_calc1_center">
                                         <span>Ore</span><br>
 
-                                        <input name="lname" id="hour" value="" type="text">				</div>
+                                        <input name="lname" id="hour" value="0" type="text" disabled>				</div>
                                     <div class="num_calc1_form">
                                         <span>Minute</span><br>
 
-                                        <input name="mname" id="minute" value="" type="text">				</div>
+                                        <input name="mname" id="minute" value="0" type="text" disabled>				</div>
 
                                     <div class="clear"></div>
                                 </div>
@@ -255,7 +151,6 @@ require_once('view/include/constructor.php');
                                             <option value="1931" label="1931">1931</option>
                                         </select>				</div>
                                     <div class="num_calc1_form" id="num_calc1_center2">
-
                                         <span class="selectbox" style="display: inline-block; position: relative;"><select style="position: absolute; top: -9999px;" name="bmonth" id="bmonth">
                                             <option value="" label="luna">Luna</option>
                                             <option value="01" label="Ianuarie">Ianuarie</option>
@@ -348,36 +243,28 @@ require_once('view/include/constructor.php');
                 </div>
                 <div id="column3">
                     <div id="vklad">
-                        <div class="actual_header">В этом разделе</div>
+                        <div class="actual_header">In curind</div>
                         <div id="vklad_content">
                             <div class="vklad_item">
-                                <img src="horo_corner.png" alt="">
-                                <a href="http://astrotarot.ru/numerology/personal/lifepath">Число жизненного пути</a>
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                <a href="#">Numarul meu</a>
                             </div>
                             <div class="vklad_item">
-                                <img src="horo_corner.png" alt="">
-                                <img src="horo_corner.png" alt="">
-                                <a href="http://astrotarot.ru/numerology/personal/self-expression">Число самовыражения</a>
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                <a href="#">Carti tarot</a>
                             </div>
                             <div class="vklad_item_active">
-                                <img src="horo_corner.png" alt="">
-                                Число личности
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                Cifrele vietii
+                                <a href="'.ROOT_HOST.'application/life-duration"></a>
                             </div>
                             <div class="vklad_item">
-                                <img src="horo_corner.png" alt="">
-                                <img src="horo_corner.png" alt="">
-                                <a href="http://astrotarot.ru/numerology/personal/soul">Число души</a>
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                <img src="'.ROOT_HOST.'view/images/horo_corner.png" alt="">
+                                <a href="#">Numarul sufletului</a>
                             </div>
-                            <div class="vklad_item">
-                                <img src="horo_corner.png" alt="">
-                                <img src="horo_corner.png" alt="">
-                                <a href="http://astrotarot.ru/numerology/personal/achievement">Важные годы жизни</a>
-                            </div>
-                            <div class="vklad_item">
-                                <img src="horo_corner.png" alt="">
-                                <img src="horo_corner.png" alt="">
-                                <a href="http://astrotarot.ru/numerology/personal/karma">Кармическая задача</a>
-                            </div>
+
                         </div>
                     </div>			            <div class="banner_right_200x350">
                         <a href="http://astrotarot.ru/service/divination/gadanie-na-lyubov" target="blank">

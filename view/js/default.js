@@ -26,14 +26,12 @@ $(document).ready(function(){
             contentType: false   // tell jQuery not to set contentType
         }).done(function(data) {
             if(data['errors'] != undefined){
-                //CreateErrorOnFields(data['errors']);
-                alert(data);
+                alert(data['errors']);
             }
             else if(data['success'] == true){
-                ResetFormFields(formId);
-                if(data['url'] != undefined) {
-                    window.location.href = data['url'];
-                }
+                $('#day').val(data['day']);
+                $('#hour').val(data['hour']);
+                $('#minute').val(data['minute']);
             }
         }).fail(function(data) {
             //alert(data);
@@ -136,6 +134,15 @@ $(document).ready(function(){
 		});
 		return false;
 	});
+
+    $('#ident-enter').click(function(){
+        $('#enter_form').stop().fadeToggle(200,function(){
+            $('html, body').animate({
+                scrollTop: $('#enter').offset().top
+            }, 1000);
+        });
+        return false;
+    });
 	
 	$('#iemd,#footer-feedback').click(function(){
 		$('#top').click();

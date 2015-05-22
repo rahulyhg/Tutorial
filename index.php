@@ -28,4 +28,7 @@ else if(isset($_REQUEST['section']))
         echo 'not-found';
     }
 }
+else{
+    ProcessError();
+}
 ?>

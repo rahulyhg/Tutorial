@@ -11,7 +11,7 @@ echo '
     <div id="feedback">
         <div id="feedback_button"></div>
         <form action="http://astrotarot.ru/user/registration">
-            <span>Ваше имя<img src="must.png" alt=""></span><br>
+            <span>Ваше имя<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
             <input value="" id="feedback-name" class="feedback_form_text" size="30" type="text"><br>
             <span>Адрес эл. почты<img src="must.png" alt=""></span><br>
             <input id="feedback-email" class="feedback_form_text" value="используйте действующий адрес" size="30" type="text"><br>
@@ -39,9 +39,9 @@ echo '
                     <div id="vklad_reg_content">
                         <div class="vklad_reg_item">
                             <form id="simple" action = "javascript:void(0);" method="POST" >
-                                <span>Adresa e-mail<img src="must.png" alt=""></span><br>
-                                <input name="email" id="email" value="" class="reg_form" type="text"><span>Parola<img src="must.png" alt=""></span><br>
-                                <input name="password" id="pass" value="" class="reg_form" type="password">	<span>Confirmati parola<img src="must.png" alt=""></span><br>
+                                <span>Adresa e-mail<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
+                                <input name="email" id="email" value="" class="reg_form" type="text"><span>Parola<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
+                                <input name="password" id="pass" value="" class="reg_form" type="password">	<span>Confirmati parola<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
                                 <input name="password-confirm" id="pass_confirm" value="" class="reg_form" type="password">
                                 <div class="check_left">
                                     <label>
