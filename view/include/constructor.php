@@ -12,7 +12,6 @@
                     </div>
                 </div>';
     }
-
     function CreatePanelReadMoreAboutYou(){
         echo ' <div id="cosmo">
             <div id="know_thyself">
@@ -29,7 +28,6 @@
             </div>
         </div>';
     }
-
     function CreateBottomTextpanel(){
         echo ' <div class="bottom_text">
                 <div class="text_open">
@@ -43,7 +41,6 @@
                 </div>
             </div>';
     }
-
     function CreateMenu(){
         echo '<div id="menu">
         <div class="top_wrap">
@@ -59,10 +56,10 @@
             </div>
             <div id="menu_right">
                 <div class="lilac_item">
-                    <a href="/news">Noutati</a>
+                    <a href="#">Noutati</a>
                 </div>
                 <div class="lilac_item">
-                    <a href="/statyi">Articole</a>
+                    <a href="#">Articole</a>
                 </div>
             </div>
             <div class="clear"></div>
@@ -70,7 +67,6 @@
         </div>
     </div>';
     }
-
     function CreateSignRightpanel($sign, $Content){
         echo '<div class="sign_item">
                     <div id="sign_img">
@@ -92,14 +88,12 @@
                     <div class="clear"></div>
                 </div>';
     }
-
     function CreatePanelRightHoroscopeViewOnePage($sign, $Content){
         echo '<div class="hrskp_item">
                         <img src="'.ROOT_HOST.'view/images/small/'.$sign['sign_name'].'.png" alt="" />
                         <div class="item_header"><a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'"><span>'.$Content[$sign['sign_name']].'</span><br />'.$sign['sign_date'].'</a></div>
                     </div>';
     }
-
     function CreateLeftMenuViewOnePage($allSigns, $Content){
         echo '<div id="orange_menu">
                         <div class="menu_left_item">
@@ -116,7 +110,6 @@
                             echo '</div>';
                         echo'</div>';
     }
-
     function CreateTopTabsViewOnePage($allSigns, $Content){
         echo '<div id="orange_sign">';
             foreach($allSigns as $sign) {
@@ -127,7 +120,6 @@
             echo '<div class="clear"></div>';
         echo '</div>';
     }
-
     function CreateFeedbackForm(){
         echo '<div style="right: -385px;" id="feedback">
         <div id="feedback_button"></div>
@@ -143,4 +135,23 @@
                 <div id="nope">Inapoi</div>
             </form>
         </div>';
+    }
+    function CreatePanelLifeNumbersApplication(){
+        echo'
+                    <div id="number">
+                                <div class="header">Numerele vietii</div>
+                                <div class="left_block">
+                                                                <img src="'.ROOT_HOST.'view/images/vopros.png" alt="число не определено" title="число не определено">
+                                                        </div>
+                                <div class="right_block">
+                                    <div class="number_header">Viata in cifre</div>
+                                                                <div class="sub_header">Afla cifrele care te vor impresiona, viata traita exprimata in cifre.</div>
+                                                        </div>
+                                <div class="clear"></div>
+                                <div class="button">
+                                    <div class="button_left"></div>
+                                    <div class="button_content"><a indepth="true" href="'.ROOT_HOST.'application/life-duration">&nbsp;&nbsp;&nbsp;&nbsp;Calculeaza&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                                    <div class="button_right"></div>
+                                </div>
+                            </div>';
     }

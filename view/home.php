@@ -51,6 +51,58 @@ echo '<div id="content">
             </div>
             <div class="clear"></div>
         </div>';
+           echo '
+                        <div id="moon_number">
+                            <div id="moon">
+                                <div class="header">Calendarul lunii</div>
+                                <div class="left_block"><img src="'.ROOT_HOST.'view/images/moon.png" alt=""></div>
+                                <div class="right_block">
+                                    <div class="moon_header">In curind <a indepth="true" href="#">2015</a><br></div>
+                                                            <div class="moon_text">
+                                                                                                                                                                                                                                   Луна в знаке Овен<br>
+                                                                </div>
+                                                        </div>
+                                <div class="clear"></div>
+                                <div id="stars_line">
+                                                                                                                                <div class="stars_item">
+                                                <div class="stars_header">Serviciu</div>
+                                                <div class="stars">
+                                                                                                <div class="star_active"></div>
+                                                                                                <div class="star_active"></div>
+                                                                                                <div class="star"></div>
+                                                                                                <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="stars_item" id="stars_center">
+                                                <div class="stars_header">Sanatate</div>
+                                                <div class="stars">
+                                                                                                <div class="star_active"></div>
+                                                                                                <div class="star_active"></div>
+                                                                                                <div class="star"></div>
+                                                                                                <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                                                                                                <div class="stars_item">
+                                                <div class="stars_header">Dragoste</div>
+                                                <div class="stars">
+                                                                                                <div class="star_active_green"></div>
+                                                                                                <div class="star_active_green"></div>
+                                                                                                <div class="star_active_green"></div>
+                                                                                                <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                                                                                        <div class="clear"></div>
+                                </div>
+                                <div class="text"> </div>
+                                <div class="button">
+                                    <div class="button_left"></div>
+                                    <div class="button_content"><a indepth="true" href="#">Calendarul lunii</a></div>
+                                    <div class="button_right"></div>
+                                </div>
+                            </div>';
+                            CreatePanelLifeNumbersApplication();
+                            echo '<div class="clear"></div>
+                        </div>';
             CreatePanelReadMoreAboutYou();
         echo '<div id="article_news">
             <div class="left_block">
