@@ -7,22 +7,9 @@ echo '
         <div class="top_wrap">';
             CreateMenu();
         echo '</div>
-    </div>
-    <div id="feedback">
-        <div id="feedback_button"></div>
-        <form action="http://astrotarot.ru/user/registration">
-            <span>Ваше имя<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
-            <input value="" id="feedback-name" class="feedback_form_text" size="30" type="text"><br>
-            <span>Адрес эл. почты<img src="must.png" alt=""></span><br>
-            <input id="feedback-email" class="feedback_form_text" value="используйте действующий адрес" size="30" type="text"><br>
-            <span>Письмо<img src="must.png" alt=""></span><br>
-            <textarea id="feedback-content" class="feedback_form_text2"></textarea>
-            <div id="feedback-sended" style="display: none;"><span style="color: white;">Письмо отправлено</span></div>
-            <input id="feedback-send" class="feedback_send" src="feedback_send.png" type="image">
-            <div id="nope">Я передумал</div>
-        </form>
-    </div>
-</div>    <div id="content_white">
+    </div>';
+    CreateFeedbackForm();
+echo '</div>    <div id="content_white">
     <div id="content_wrap">
         <div id="white_space">
             <div class="tri_header">Inregistrare</div>

@@ -131,13 +131,13 @@
     function CreateFeedbackForm(){
         echo '<div style="right: -385px;" id="feedback">
         <div id="feedback_button"></div>
-            <form action="http://astrotarot.ru/numerology/personal/identity">
+            <form id="feedback-form" action = "javascript:void(0);" method="POST" >
                 <span>Nume<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
-                <input value="" id="feedback-name" class="feedback_form_text" size="30" type="text"><br>
+                <input value="" name="user-name" class="feedback_form_text" size="30" type="text"><br>
                 <span>Аdresa de e-mail<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
-                <input id="feedback-email" class="feedback_form_text" value="" size="30" type="text"><br>
+                <input name="email" class="feedback_form_text" value="" size="30" type="text"><br>
                 <span>Mesaj<img src="'.ROOT_HOST.'view/images/must.png" alt=""></span><br>
-                <textarea id="feedback-content" class="feedback_form_text2"></textarea>
+                <textarea name="content" class="feedback_form_text2"></textarea>
                 <div id="feedback-sended" style="display: none;"><span style="color: white;">Scrisoare a fost trimisa</span></div>
                 <button id="send-feedback">Trimite</button>
                 <div id="nope">Inapoi</div>

@@ -38,6 +38,27 @@ $(document).ready(function(){
         });
     });
 
+    $('#send-feedback').click(function(){
+        var fd = new FormData(document.getElementById('feedback-form'));
+        $.ajax({
+            url: ROOT_HOST+'feedback/new',
+            type: "POST",
+            data: fd,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false   // tell jQuery not to set contentType
+        }).done(function(data) {
+            if(data['errors'] != undefined){
+
+            }
+            else if(data['success'] == true){
+                alert('Mesajul a fost trimis!');
+                ResetFormFields('feedback-form');
+            }
+        }).fail(function(data) {
+            //alert(data);
+        });
+    });
+
     function SubmitForm(formId, url){
         var fd = new FormData(document.getElementById(formId));
         $.ajax({
