@@ -72,12 +72,23 @@ $(document).ready(function(){
 
             }
             else if(data['success'] == true){
+                $('.content').remove();
+                CreatePanelCompatibilityContent(data['description']);
+                $("#compatibility-content").typed({
+                    strings: [data['description']],
+                    typeSpeed: 0
+                });
 
             }
         }).fail(function(data) {
             //alert(data);
         });
     });
+
+    function CreatePanelCompatibilityContent(){
+        var divContent = $('<div class="content"><p id="compatibility-content"></p></div>');
+        $('.num_what').after(divContent);
+    }
 
     function SubmitForm(formId, url){
         var fd = new FormData(document.getElementById(formId));

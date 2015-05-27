@@ -31,5 +31,6 @@
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/slyder.js"></script>
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/default.js"></script>
     <script type="text/javascript" src="'.ROOT_HOST.'view/js/magic_slyder.js"></script>
+    <script type="text/javascript" src="'.ROOT_HOST.'view/js/typed.js"></script>
     </body>
     </html> ';

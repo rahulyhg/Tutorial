@@ -1307,6 +1307,10 @@ img.comp_sign {margin-top:10px; float:left;}
     background:url(../images/compatibility.jpg);
 }
 
+#compatibility-form{
+    margin-top:30px;
+}
+
 #compatibility-form .selectbox .select{
     width: 120px;
 }
@@ -1341,5 +1345,32 @@ img.comp_sign {margin-top:10px; float:left;}
     outline: medium none;
     border: 1px solid #CACACA;
     font-size: 15px;
+}
+
+.content{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 

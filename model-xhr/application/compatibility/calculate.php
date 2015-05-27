@@ -18,9 +18,11 @@ if ( ! empty($errors)) {
 } else {
     if(ExistSignId($bdd, $_POST['sign1']) && ExistSignId($bdd, $_POST['sign2'])){
         if(empty(GetCompatibilityDescription($bdd, $_POST['sign1'], $_POST['sign2']))){
-            $data['decription'] = GetCompatibilityDescription($bdd, $_POST['sign2'], $_POST['sign1']);
+            $data['success'] = true;
+            $data['description'] = GetCompatibilityDescription($bdd, $_POST['sign2'], $_POST['sign1']);
         }
         else{
+            $data['success'] = true;
             $data['description'] = GetCompatibilityDescription($bdd, $_POST['sign1'], $_POST['sign2']);
         }
     }
