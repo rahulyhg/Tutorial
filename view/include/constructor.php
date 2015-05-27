@@ -84,7 +84,7 @@
                     <div class="data">
                         '.GetMonth(date('m', strtotime($sign['horoscope_date']))).' '.date('d', strtotime($sign['horoscope_date'])).', '.date('Y', time()).' </div>
                     <div class="text">
-                        '.$sign['description'].' ... <a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'">mai mult →</a></div>
+                        '. substr($sign['description'], 0, 80).' ... <a href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'">mai mult →</a></div>
                     <div class="button" style="bottom:45px;">
                         <div class="button_left"></div>
                         <div class="button_content"><a id="sign-all-horoscoper" href="'.ROOT_HOST.'horoscope/'.$sign['sign_name'].'">Toate pentru '.$Content[$sign['sign_name']].'</a></div>
