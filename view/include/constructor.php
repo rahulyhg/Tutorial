@@ -59,6 +59,11 @@
                     <a href="'.ROOT_HOST.'application/compatibility">Compatibilitate zodii</a>
                 </div>
             </div>
+            <div id="menu_left">
+                <div class="lilac_item">
+                    <a href="'.ROOT_HOST.'application/name-compatibility">Numele pereche</a>
+                </div>
+            </div>
             <div id="menu_right">
                 <div class="lilac_item">
                     <a href="#">Noutati</a>

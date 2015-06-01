@@ -32,10 +32,22 @@
     <table name="horoscope" schema="" catalog="zodiacool" type="TABLE">
       <column name="horoscope_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="id_sign" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="description" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
       <column name="horoscope_date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
       <primary-key name="PRIMARY" columns="horoscope_id"/>
       <foreign-key name="horoscope_ibfk_1" columns="id_sign" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="name_compatibility" schema="" catalog="zodiacool" type="TABLE">
+      <column name="name_compatibility_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name_compatibility_rank" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name_compatibility_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="name_compatibility_id"/>
+    </table>
+    <table name="name_signification" schema="" catalog="zodiacool" type="TABLE">
+      <column name="name_signification_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name_signification" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name_signification_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="name_signification_id"/>
     </table>
     <table name="news" schema="" catalog="zodiacool" type="TABLE">
       <column name="news_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>

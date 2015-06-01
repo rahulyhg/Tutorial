@@ -85,6 +85,32 @@ $(document).ready(function(){
         });
     });
 
+    $('#calculate-name-compatibility').click(function(){
+        var fd = new FormData(document.getElementById('name-compatibility-form'));
+        $.ajax({
+            url: ROOT_HOST+'application/name-compatibility/calculate',
+            type: "POST",
+            data: fd,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false   // tell jQuery not to set contentType
+        }).done(function(data) {
+            if(data['errors'] != undefined){
+
+            }
+            else if(data['success'] == true){
+                $('.content').remove();
+                CreatePanelCompatibilityContent(data['description']);
+                $("#compatibility-content").typed({
+                    strings: [data['compatibility']],
+                    typeSpeed: 0
+                });
+
+            }
+        }).fail(function(data) {
+            //alert(data);
+        });
+    });
+
     function CreatePanelCompatibilityContent(){
         var divContent = $('<div class="content"><p id="compatibility-content"></p></div>');
         $('.num_what').after(divContent);

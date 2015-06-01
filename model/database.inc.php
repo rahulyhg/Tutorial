@@ -3,8 +3,9 @@
     $address = '192.227.242.184';
     $username = 'admin';
     $password = 'SP5WF43PFQf9tAJ';
-    $database = 'never-give-up';
+    $database = 'zodiacool';
     */
+///*
     if(ROOT_HOST != '/'){
         $address = 'localhost';
         $username = 'root';

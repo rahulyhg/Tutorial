@@ -600,7 +600,7 @@ img.comp_sign {margin-top:10px; float:left;}
 .num_what div {margin-left:58px;}
 #num_calc1 {width:446px; height:164px; padding:55px 27px 20px 27px; margin-left:-7px; background:url(../../img/images/num_back1.png);}
 #num_calc1 input {width:130px; height:30px; margin-top:5px; padding:0 5px; line-height:30px;}
-#num_calc2 {width:446px; height:385px; padding:55px 27px 20px 27px; margin-left:-7px; background:url(../../img/images/num_back2.png);}
+#num_calc2 {width:446px; height:385px; padding:55px 27px 20px 27px; margin-left:-7px; background:url(../images/num_back2.png);}
 #num_calc2 input {width:130px; height:30px; margin-top:5px; padding:0 5px; line-height:30px;}
 #num_calc3 {width:446px; height:385px; padding:55px 27px 20px 27px; margin-left:-7px; background:url(../../img/images/num_back3.png);}
 #num_calc3 input {width:130px; height:30px; margin-top:5px; padding:0 5px; line-height:30px;}
@@ -1307,6 +1307,14 @@ img.comp_sign {margin-top:10px; float:left;}
     background:url(../images/compatibility.jpg);
 }
 
+#name-compatibility{
+    width:446px;
+    height: 385px;
+    padding:55px 27px 20px 27px;
+    margin-left:-7px;
+    background:url(../images/num_back2.png);
+}
+
 #compatibility-form{
     margin-top:30px;
 }
@@ -1347,9 +1355,37 @@ img.comp_sign {margin-top:10px; float:left;}
     font-size: 15px;
 }
 
+#calculate-name-compatibility{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #ff7709;
+    color: #ffffff;
+    cursor: pointer;
+    outline: medium none;
+    border: 1px solid #CACACA;
+    font-size: 15px;
+}
+
 .content{
     width: 100%;
     padding-bottom: 50px;
+}
+
+#name1 {
+    float: left;
+    width: 300px;
+    margin-left: 75px;
+    margin-top: 50px;
+    height:31px;
+}
+
+#name2{
+    float: left;
+    width: 300px;
+    margin-left: 75px;
+    margin-top: 200px;
+    height: 31px;
 }
 
 .typed-cursor{
