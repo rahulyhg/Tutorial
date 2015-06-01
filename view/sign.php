@@ -9,27 +9,8 @@ echo '
         echo '<div id="white_space">
             <div class="tri_header">'.$Content[$signData['sign_name']].' — horoscop</div>
             <div id="columns">
-                <div id="column1">
-                    <div class="vote_ask">
-                        <div class="vote_header">Care preziceri le considerati cele mai veridice?</div>
-                        <div class="vote_content">
-                            <form>
-                                <label>
-                                    <input name="3" type="checkbox">
-                                    <div>Prognozele numerologilor</div>
-                                </label>
-                                <label>
-                                    <input name="2" type="checkbox">
-                                    <div>Prognozele astrologilor</div>
-                                </label>
-                                <label>
-                                    <input name="1" type="checkbox">
-                                    <div>Prognozele clarvazatorilor</div>
-                                </label>
-                                <input id="poll" type="submit" value="Voteaza">
-                            </form>
-                        </div>
-                    </div>';
+                <div id="column1">';
+                        CreateVotePanel();
                         CreateLeftMenuViewOnePage($allSigns, $Content);
                     echo '</div>
                 </div>

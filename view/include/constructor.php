@@ -165,3 +165,33 @@
                                 </div>
                             </div>';
     }
+    function CreateVotePanel(){
+        echo '<div class="vote_ask">
+                        <div class="vote_header">Care preziceri le considerati cele mai veridice?</div>
+                        <div class="vote_content">
+                            <form>
+                                <label>
+                                    <input name="3" type="checkbox">
+                                    <div>Prognozele numerologilor</div>
+                                </label>
+                                <label>
+                                    <input name="2" type="checkbox">
+                                    <div>Prognozele astrologilor</div>
+                                </label>
+                                <label>
+                                    <input name="1" type="checkbox">
+                                    <div>Prognozele clarvazatorilor</div>
+                                </label>
+                                <input id="poll" type="submit" value="Voteaza">
+                            </form>
+                        </div>
+                    </div>';
+    }
+    function CreateAlphabeat(){
+        $letters = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','W');
+        echo '<div class="sonnik_alph">';
+                            foreach($letters as $letter) {
+                                echo '<a href="#">'.$letter.'</a>';
+                            }
+                        echo '</div>';
+    }
