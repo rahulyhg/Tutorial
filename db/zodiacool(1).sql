@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 27, 2015 at 01:35 PM
+-- Generation Time: Jun 01, 2015 at 03:34 PM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -134,6 +134,18 @@ INSERT INTO `compatibility` (`compatibility_id`, `sign1`, `sign2`, `description`
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `dream`
+--
+
+CREATE TABLE IF NOT EXISTS `dream` (
+  `dream_id` int(11) NOT NULL,
+  `dream_name` varchar(300) NOT NULL,
+  `dream_description` varchar(2000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `feedback`
 --
 
@@ -161,7 +173,7 @@ INSERT INTO `feedback` (`feedback_id`, `user_name`, `email`, `content`) VALUES
 CREATE TABLE IF NOT EXISTS `horoscope` (
   `horoscope_id` int(11) NOT NULL,
   `id_sign` int(11) NOT NULL,
-  `description` varchar(255) NOT NULL,
+  `description` varchar(2000) NOT NULL,
   `horoscope_date` date NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
 
@@ -183,6 +195,45 @@ INSERT INTO `horoscope` (`horoscope_id`, `id_sign`, `description`, `horoscope_da
 (26, 11, 'varsator', '2015-05-21'),
 (27, 12, 'pesti', '2015-05-21'),
 (28, 1, 'brebec 21 mai test ', '2015-05-21');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `name_compatibility`
+--
+
+CREATE TABLE IF NOT EXISTS `name_compatibility` (
+  `name_compatibility_id` int(11) NOT NULL,
+  `name_compatibility_rank` int(11) NOT NULL,
+  `name_compatibility_description` varchar(2000) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `name_compatibility`
+--
+
+INSERT INTO `name_compatibility` (`name_compatibility_id`, `name_compatibility_rank`, `name_compatibility_description`) VALUES
+(2, 1, 'Aveţi o relaţie liberă, am putea spune. Nu staţi împreună nonstop. Aveţi nevoie şi de momente de respiro. E important să vă sincronizaţi această nevoie de libertate, pentru că vor fi situaţii în care trebuie să fiţi unul alături de celălalt. Legătura voastră este în special intelectuală, piperată cu aventuri sexuale. '),
+(3, 2, 'Relaţia voastră e una strânsă, bazată pe sentimente puternice. Poate fi vorba de dragoste la prima vedere. Uneori aveţi senzaţia că sunteţi dependenţi unul de celălalt. Petreceţi mult timp împreună şi nu vă imaginaţi viaţa unul fără celălalt. Legătura voastră este în special emoţională.'),
+(4, 3, 'Această combinaţie naşte o atracţie sexuală puternică. Între voi există o legătură în special fizică. În doi vă distraţi de minune, dar fugiţi de responsabilităţile unei relaţii serioase şi nu faceţi planuri de viitor.'),
+(5, 4, 'Relaţia voastră are o bază puternică. Aveţi intenţii serioase unul faţă de celălalt şi nu vă sperie planurile de viitor. Faceţi totul împreună, dar ducând o existenţă atât de stabilă, creşte riscul să apară rutina în cuplu.'),
+(6, 5, 'Relaţia voastră este una plină de creativitate. Exploraţi împreună noi moduri de a comunica, de a vă distra şi de a face dragoste. Vă dedicaţi trup şi suflet relaţiei şi căutaţi să o înfrumuseţaţi cu tot felul de trucuri. Aveţi mari şanse să fiţi fericiţi împreună până la adânci bătrâneţi.'),
+(7, 6, 'Amândoi puneţi mult accent pe viaţa de familie, aşa că relaţia voastră va evolua foarte mult în timp record. Aveţi o legătură solidă, ferită de tentaţiile din jur. Vă înţelegeţi din priviri şi vedeţi viitorul în aceleaşi culori.'),
+(8, 7, 'Deşi v-aţi îndrăgostit nebuneşte unul de celălalt, în timp pot apărea unele probleme. Trebuie să vă daţi silinţa pentru a menţine relaţia palpitantă. Iubirea vă va da, însă, impulsul de care aveţi nevoie, ca să menţineţi vie pasiunea dintre voi.'),
+(9, 8, 'Amândoi sunteţi ferm convinşi că veţi fi toată viaţa împreună. Entuziasmul relaţiei voastre stârneşte admiraţia celor din jur. Vă exprimaţi liber sentimentele şi vă păstraţi atitudindea optimistă, chiar dacă vă certaţi.'),
+(10, 9, 'Sunteţi foarte compatibili în plan intelectual şi sentimental, aşa că trăiţi o poveste de dragoste aproape perfectă. V-aţi dedicat total relaţiei şi aveţi încredere unul în celălalt. Faptul că vă potriviţi atât de bine poate naşte însă plictiseală în dormitor. Aveţi grijă să nu deveniţi doar buni prieteni.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `name_signification`
+--
+
+CREATE TABLE IF NOT EXISTS `name_signification` (
+  `name_signification_id` int(11) NOT NULL,
+  `name_signification` varchar(100) NOT NULL,
+  `name_signification_description` varchar(2000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -280,6 +331,12 @@ ALTER TABLE `compatibility`
   ADD PRIMARY KEY (`compatibility_id`), ADD KEY `sign1` (`sign1`), ADD KEY `sign2` (`sign2`);
 
 --
+-- Indexes for table `dream`
+--
+ALTER TABLE `dream`
+  ADD PRIMARY KEY (`dream_id`);
+
+--
 -- Indexes for table `feedback`
 --
 ALTER TABLE `feedback`
@@ -290,6 +347,18 @@ ALTER TABLE `feedback`
 --
 ALTER TABLE `horoscope`
   ADD PRIMARY KEY (`horoscope_id`), ADD KEY `id_sign` (`id_sign`);
+
+--
+-- Indexes for table `name_compatibility`
+--
+ALTER TABLE `name_compatibility`
+  ADD PRIMARY KEY (`name_compatibility_id`);
+
+--
+-- Indexes for table `name_signification`
+--
+ALTER TABLE `name_signification`
+  ADD PRIMARY KEY (`name_signification_id`);
 
 --
 -- Indexes for table `news`
@@ -324,6 +393,11 @@ ALTER TABLE `article`
 ALTER TABLE `compatibility`
   MODIFY `compatibility_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=83;
 --
+-- AUTO_INCREMENT for table `dream`
+--
+ALTER TABLE `dream`
+  MODIFY `dream_id` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
@@ -333,6 +407,16 @@ ALTER TABLE `feedback`
 --
 ALTER TABLE `horoscope`
   MODIFY `horoscope_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=29;
+--
+-- AUTO_INCREMENT for table `name_compatibility`
+--
+ALTER TABLE `name_compatibility`
+  MODIFY `name_compatibility_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
+--
+-- AUTO_INCREMENT for table `name_signification`
+--
+ALTER TABLE `name_signification`
+  MODIFY `name_signification_id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `news`
 --
