@@ -22,6 +22,12 @@
       <foreign-key name="compatibility_ibfk_1" columns="sign1" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="compatibility_ibfk_2" columns="sign2" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
+    <table name="dream" schema="" catalog="zodiacool" type="TABLE">
+      <column name="dream_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="dream_name" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12"/>
+      <column name="dream_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="dream_id"/>
+    </table>
     <table name="feedback" schema="" catalog="zodiacool" type="TABLE">
       <column name="feedback_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="user_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>

@@ -195,3 +195,17 @@
                             }
                         echo '</div>';
     }
+    function CreatePanelDreams($dreams){
+        $columns = ceil(count($dreams)/40);
+        echo '<div class="sonnik_list">';
+                            for($i = 1; $i <= $columns; $i++) {
+                                echo '<div class="list_item">';
+                                    for($j = $columns-1 * 40; $j < $columns*40; $j++) {
+                                        if(isset ($dreams[$j])) {
+                                            echo '<a href="http://astrotarot.ru/sonnik/word/abajur">' . $dreams[$j]['dream_name'] . '</a>';
+                                        }
+                                    }
+                                echo '</div>';
+                            }
+                        echo '</div>';
+    }
