@@ -64,6 +64,11 @@
                     <a href="'.ROOT_HOST.'application/name-compatibility">Numele pereche</a>
                 </div>
             </div>
+            <div id="menu_left">
+                <div class="lilac_item">
+                    <a href="'.ROOT_HOST.'application/dream">Semnificatia viselor</a>
+                </div>
+            </div>
             <div id="menu_right">
                 <div class="lilac_item">
                     <a href="#">Noutati</a>
@@ -191,7 +196,7 @@
         $letters = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','W');
         echo '<div class="sonnik_alph">';
                             foreach($letters as $letter) {
-                                echo '<a href="#">'.$letter.'</a>';
+                                echo '<a href="'.ROOT_HOST.'application/dream/letter/'.strtolower($letter).'">'.$letter.'</a>';
                             }
                         echo '</div>';
     }
@@ -202,10 +207,60 @@
                                 echo '<div class="list_item">';
                                     for($j = $columns-1 * 40; $j < $columns*40; $j++) {
                                         if(isset ($dreams[$j])) {
-                                            echo '<a href="http://astrotarot.ru/sonnik/word/abajur">' . $dreams[$j]['dream_name'] . '</a>';
+                                            echo '<a href="'.ROOT_HOST.'application/dream/show/'.$dreams[$j]['dream_name'].'">' . $dreams[$j]['dream_name'] . '</a>';
                                         }
                                     }
                                 echo '</div>';
                             }
                         echo '</div>';
+    }
+    function CreatePopularItemsPanel(){
+        echo '<div id="popular">
+                        <div class="popular_header">Cele mai populare</div>
+                        <div class="popular_item">
+                            <div class="popular_count">1</div>
+                            <div class="popular_text">
+                                <span>Hroscop</span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'horoscope">
+                                    Horoscop </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="popular_item">
+                            <div class="popular_count">2</div>
+                            <div class="popular_text">
+                                <span></span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'application/compatibility">
+                                    Compatibilitate zodii </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="popular_item">
+                            <div class="popular_count">3</div>
+                            <div class="popular_text">
+                                <span></span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'application/name-compatibility">
+                                    Numele pereche</a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="popular_item">
+                            <div class="popular_count">4</div>
+                            <div class="popular_text">
+                                <span>Afla daca va potriviti</span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'application/life-duration">
+                                    Cifrele vietii</a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="popular_item">
+                            <div class="popular_count">5</div>
+                            <div class="popular_text">
+                                <span>Ce ai visat</span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'application/dream">
+                                   Semnificatia viselor </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>';
     }

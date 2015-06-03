@@ -3,84 +3,19 @@
 require_once('view/include/constructor.php');
 CreateMenu();
 CreateFeedbackForm();
+print_r($dream);
 echo '
 </div>    <div id="content_white">
     <div id="content_wrap">
         <div id="white_space">
             <div id="deep_page">
                 <a href="http://astrotarot.ru/">Главная</a><span class="span_arrow">→</span><a id="breadcrumbs-dream" href="http://astrotarot.ru/sonnik">Сонник</a><span class="span_arrow">→</span>Абажур	                </div>
-            <div class="tri_header">Абажур</div>
+            <div class="tri_header">'.ucfirst($dream['dream_name']).'</div>
             <div id="columns">
-                <div id="column1">
-                    <div class="vote_ask">
-                        <div class="vote_header">Какие прогнозы вы считаете самыми правдивыми?</div>
-                        <div class="vote_content">
-                            <form action="http://astrotarot.ru/sonnik/word/abajur">
-                                <label>
-                                    <input name="4" type="checkbox">
-                                    <div>Прогнозы ченнелеров (контактеров с инопланетными цивилизациями)</div>
-                                </label>
-                                <label>
-                                    <input name="3" type="checkbox">
-                                    <div>Прогнозы нумерологов</div>
-                                </label>
-                                <label>
-                                    <input name="2" type="checkbox">
-                                    <div>Прогнозы астрологов</div>
-                                </label>
-                                <label>
-                                    <input name="1" type="checkbox">
-                                    <div>Прогнозы экстрасенсов</div>
-                                </label>
-                                <input id="poll" value="Голосовать" type="submit">
-                            </form>
-                        </div>
-                    </div>
-                    <div id="orange_menu">
-                        <div class="menu_left_item">
-                            <div id="horoscope-menu-block" class="menu_header">
-                                Гороскопы<img alt="" src="menu_arrow.png">
-                            </div>
-                            <div class="menu_content">
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/aries/today"><span>21.03-20.04 - </span>Овен</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/taurus/today"><span>21.04-20.05 - </span>Телец</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/gemini/today"><span>21.05-21.06 - </span>Близнецы</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/cancer/today"><span>22.06-22.07 - </span>Рак</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/leo/today"><span>23.07-23.08 - </span>Лев</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/virgo/today"><span>24.08-23.09 - </span>Дева</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/libra/today"><span>24.09-23.10 - </span>Весы</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/scorpio/today"><span>24.10-22.11 - </span>Скорпион</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/sagittarius/today"><span>23.11-21.12 - </span>Стрелец</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/capricorn/today"><span>22.12-20.01 - </span>Козерог</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/aquarius/today"><span>21.01-20.02 - </span>Водолей</a>
-                                </div>
-                                <div class="menu_content_item">
-                                    <a href="http://astrotarot.ru/horoscope/pisces/today"><span>21.02-20.03 - </span>Рыбы</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu_left_item">
+                <div id="column1">';
+                    CreateVotePanel();
+                            CreateLeftMenuViewOnePage($allSigns, $Content);
+                        echo '<div class="menu_left_item">
                             <div id="book-menu-block" class="menu_header">
                                 Сонники<img alt="" src="menu_arrow.png">
                             </div>

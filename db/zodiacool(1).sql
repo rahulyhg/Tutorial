@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 01, 2015 at 03:34 PM
+-- Generation Time: Jun 03, 2015 at 09:14 AM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -141,7 +141,17 @@ CREATE TABLE IF NOT EXISTS `dream` (
   `dream_id` int(11) NOT NULL,
   `dream_name` varchar(300) NOT NULL,
   `dream_description` varchar(2000) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `dream`
+--
+
+INSERT INTO `dream` (`dream_id`, `dream_name`, `dream_description`) VALUES
+(1, 'automobil', 'test la insemnatatea viselor'),
+(2, 'aserty', 'test test dream vise test'),
+(3, 'balon', 'test vise '),
+(4, 'bataie', 'test vise');
 
 -- --------------------------------------------------------
 
@@ -396,7 +406,7 @@ ALTER TABLE `compatibility`
 -- AUTO_INCREMENT for table `dream`
 --
 ALTER TABLE `dream`
-  MODIFY `dream_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `dream_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `feedback`
 --

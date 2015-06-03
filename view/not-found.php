@@ -6,7 +6,7 @@ echo '<div id="content_white">
     <div id="content_wrap">
         <div id="white_space">
             <br><br>
-            <div class="tri_header">Ошибка 404</div>
+            <div class="tri_header">Eroare 404</div>
             <div id="four_zero_four">
                 <img src="'.ROOT_HOST.'view/images/404.png" alt="">
                 <div class="four_opis">

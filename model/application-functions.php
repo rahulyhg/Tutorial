@@ -19,3 +19,12 @@ function GetDreamsStartWithLetter($bdd, $letter){
     }
     return $dreams;
 }
+
+function GetDreamNameAndDescription($bdd, $dream){
+    $req = $bdd->prepare('select dream_name, dream_description from dream where dream_name=?');
+    $req->execute(array($dream));
+    $dream = array();
+    $dream = $req->fetchAll();
+
+    return $dream;
+}
