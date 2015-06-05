@@ -28,11 +28,11 @@ echo    '
                         </div>
 
                         <div class="sonnik_header">Cautati dupa alfabet</div>';
-                        CreateAlphabeat();
+                        CreateAlphabeatDream();
                         if(isset($_REQUEST['section3'])) {
                             echo '<div class="sonnik_here">' . strtoupper($_REQUEST['section3']) . '</div>';
                         }
-                        CreatePanelDreams($dreamsStartWith);
+                        CreatePanelDreams($dreamsStartWith, 'dream');
 
                     echo '</div>		                	</div>
                 <div id="column3">';

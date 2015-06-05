@@ -192,13 +192,21 @@
                         </div>
                     </div>';
     }
-    function CreateAlphabeat(){
+    function CreateAlphabeatDream(){
         $letters = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','W');
         echo '<div class="sonnik_alph">';
                             foreach($letters as $letter) {
                                 echo '<a href="'.ROOT_HOST.'application/dream/letter/'.strtolower($letter).'">'.$letter.'</a>';
                             }
                         echo '</div>';
+    }
+    function CreateAlphabeatName(){
+        $letters = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','W');
+        echo '<div class="sonnik_alph">';
+        foreach($letters as $letter) {
+            echo '<a href="'.ROOT_HOST.'application/name-signification/letter/'.strtolower($letter).'">'.$letter.'</a>';
+        }
+        echo '</div>';
     }
     function CreatePanelDreams($dreams){
         $columns = ceil(count($dreams)/40);
@@ -213,6 +221,20 @@
                                 echo '</div>';
                             }
                         echo '</div>';
+    }
+    function CreatePanelNames($names){
+        $columns = ceil(count($names)/40);
+        echo '<div class="sonnik_list">';
+        for($i = 1; $i <= $columns; $i++) {
+            echo '<div class="list_item">';
+            for($j = $columns-1 * 40; $j < $columns*40; $j++) {
+                if(isset ($names[$j])) {
+                    echo '<a href="'.ROOT_HOST.'application/name-signification/show/'.$names[$j]['name_signification'].'">' . $names[$j]['name_signification'] . '</a>';
+                }
+            }
+            echo '</div>';
+        }
+        echo '</div>';
     }
     function CreatePopularItemsPanel(){
         echo '<div id="popular">
@@ -259,6 +281,15 @@
                                 <span>Ce ai visat</span><br>
                                 <a indepth="true" href="'.ROOT_HOST.'application/dream">
                                    Semnificatia viselor </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="popular_item">
+                            <div class="popular_count">6</div>
+                            <div class="popular_text">
+                                <span>Ce inseamna numele tau</span><br>
+                                <a indepth="true" href="'.ROOT_HOST.'application/name-signification">
+                                   Semnificatia numelui</a>
                             </div>
                             <div class="clear"></div>
                         </div>

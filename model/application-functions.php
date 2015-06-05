@@ -28,3 +28,28 @@ function GetDreamNameAndDescription($bdd, $dream){
 
     return $dream;
 }
+
+function SearchName($bdd, $name){
+    $req = $bdd->prepare('select name_signification from name_signification where name_signification=?');
+    $req->execute(array($name));
+    return $req->fetch()['name_signification'];
+}
+
+function GetNameSignification($bdd, $name){
+    $req = $bdd->prepare('select name_signification,name_signification_description  from name_signification where name_signification=?');
+    $req->execute(array($name));
+    return $req->fetchAll();
+}
+
+function GetNameStartWithLetter($bdd, $letter){
+    $letter = $letter.'%';
+    $req = $bdd->prepare('select name_signification from name_signification where name_signification like ?');
+    $req->execute(array($letter));
+    $names = array();
+    $i = 0;
+    while($row = $req->fetch()){
+        $names[$i]['name_signification'] = $row['name_signification'];
+    }
+
+    return $names;
+}

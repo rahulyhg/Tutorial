@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: besliu
- * Date: 6/3/2015
- * Time: 10:12 AM
- */
+    <?php
+
+
+    require_once('model/sign-functions.php');
+    require_once('model/user-functions.php');
+    require_once('model/application-functions.php');
+    $allSigns = GetSignList($bdd);
+    $Content = parse_ini_file('language/content.ini');
+
+    if(isset($_REQUEST['section3'])) {
+        $namesStartWith = GetNameStartWithLetter($bdd, $_REQUEST['section3']);
+    }
+    else{
+        $namesStartWith = GetNameStartWithLetter($bdd, 'a');
+    }

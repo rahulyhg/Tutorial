@@ -133,9 +133,37 @@ $(document).ready(function(){
         });
     });
 
+    $('#search-name').click(function(){
+        var fd = new FormData(document.getElementById('search-name-form'));
+        $.ajax({
+            url: ROOT_HOST+'application/name-signification/search',
+            type: "POST",
+            data: fd,
+            processData: false,  // tell jQuery not to process the data
+            contentType: false   // tell jQuery not to set contentType
+        }).done(function(data) {
+            if(data['errors'] != undefined){
+
+            }
+            else if(data['success'] == true){
+                $('.content').remove();
+                CreateFoundNamePanel(data['name_signification'][0]['name_signification']);
+
+            }
+        }).fail(function(data) {
+            //alert(data);
+        });
+    });
+
     function CreateFoundDreamPanel(dream){
         $('#found-dream').remove();
         var dreamPanel = $('<div id="found-dream"><div class="dream"><a href="'+ROOT_HOST+'application/dream/show/'+dream+'">'+dream+'</a></div></div>');
+        $('.sonnik_search').after(dreamPanel);
+    }
+
+    function CreateFoundNamePanel(name){
+        $('#found-dream').remove();
+        var dreamPanel = $('<div id="found-dream"><div class="dream"><a href="'+ROOT_HOST+'application/name-signification/show/'+name+'">'+name+'</a></div></div>');
         $('.sonnik_search').after(dreamPanel);
     }
 
