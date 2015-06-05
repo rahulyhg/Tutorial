@@ -28,8 +28,8 @@ echo '<head>
                 <div id="subscribe">
                     <span>exemplu, <span id="podstava">leu</span></span>
                     <span id="sub1">aboneaza-te</span>
-                    <a target="_blank" href="https://www.facebook.com/groups/628871420540971/"><img src="'.ROOT_HOST.'view/images/facebook.png" alt=""></a>
-                    <a target="_blank" href="https://twitter.com/Astro_Tarot_ru"><img src="'.ROOT_HOST.'view/images/twitter.png" alt=""></a>
+                    <a target="_blank" href="#"><img src="'.ROOT_HOST.'view/images/facebook.png" alt=""></a>
+                    <a target="_blank" href="#"><img src="'.ROOT_HOST.'view/images/twitter.png" alt=""></a>
                 </div>
             </div>';
             if(!isset($_SESSION['user_id'])) {

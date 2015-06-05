@@ -53,7 +53,7 @@ textarea {resize:vertical;}
 #registration {width:208px; padding-top:22px; position:relative; right:0; z-index:999; float:left;}
 #enter {width:63px; height:24px; padding:6px 0 0 12px; background:url(../../img/images/enter_back.png) center no-repeat; color:#0075ff; cursor:pointer; position:absolute; right:0; top:16px;}
 #enter_form {width:370px; position:absolute; top:60px; left:-157px; z-index:999; display:none; color:#434c5d;}
-#enter_form div.header_min {width:340px; height:37px; padding-top:38px; padding-left:30px; background:url(../../img/images/enter_form_top.png);}
+#enter_form div.header_min {width:340px; height:37px; padding-top:38px; padding-left:30px; background:url(../images/enter_form_top.png);}
 .enter_form_content {width:314px; padding:20px 28px; background:url(../../img/images/enter_form_back.png) repeat-y;}
 .enter_form_text {width:304px; height:30px; margin-bottom:14px; padding:0 5px; line-height:30px;}
 #enter_form form span {color:#474747;}
@@ -83,7 +83,7 @@ textarea {resize:vertical;}
 #feedback {width:365px; height:395px; padding-left:55px; padding-top:30px; background:url(../../img/images/feedback_back.png) right no-repeat; position:fixed; right:-385px; top:200px; z-index:998;}
 #feedback form span {font-size:16px; color:#fff;}
 #feedback form span img {margin-bottom:6px; margin-left:4px;}
-#feedback_button {width:35px; height:115px; background:url(../../img/images/feedback_button.png); position:absolute; left:0; top:155px; cursor:pointer;}
+#feedback_button {width:35px; height:115px; background:url(../images/feedback_button.png); position:absolute; left:0; top:155px; cursor:pointer;}
 .feedback_form_text {width:332px; height:30px; margin-bottom:20px; margin-top:5px; padding:0 5px; line-height:30px; font-size:16px;}
 .feedback_form_text2 {width:332px; height:117px; margin-bottom:20px; margin-top:5px; padding:5px; resize:none;}
 .feedback_send {border:none; float:left;}
@@ -1397,6 +1397,13 @@ img.comp_sign {margin-top:10px; float:left;}
     margin-left: 75px;
     margin-top: 200px;
     height: 31px;
+}
+
+#found-dream{
+    width: 85%;
+    height: 50px;
+    border: solid black 1px;
+    margin-top: -35px;
 }
 
 .typed-cursor{

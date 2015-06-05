@@ -27,10 +27,13 @@ echo    '
                     <div id="article">
                         <div class="sonnik_header">Ce ati visat?</div>
                         <div class="sonnik_search">
-                            <form action="POST" >
-                                <input value="" id="word-search" class="sonnik_input" name="squery" placeholder="Cautati cuvintul cheie din vis" type="text">
+                            <form id="search-dream-form"  action = "javascript:void(0);" >
+                                <input value="" id="word-search" class="sonnik_input" name="dream_name" placeholder="Cautati cuvintul cheie din vis" type="text">
                                 <button id="search-dream">Cauta</button>
                             </form>
+                        </div>
+                        <div id="found-dream">
+
                         </div>
                         <div class="sonnik_header">Cautati dupa alfabet</div>';
                         CreateAlphabeat();
