@@ -56,7 +56,7 @@
             </div>
             <div id="menu_left">
                 <div class="lilac_item">
-                    <a href="'.ROOT_HOST.'application/compatibility">Compatibilitate zodii</a>
+                    <a href="'.ROOT_HOST.'application/compatibility">Compatibilitate</a>
                 </div>
             </div>
             <div id="menu_left">
@@ -66,7 +66,7 @@
             </div>
             <div id="menu_left">
                 <div class="lilac_item">
-                    <a href="'.ROOT_HOST.'application/dream">Semnificatia viselor</a>
+                    <a href="'.ROOT_HOST.'application/dream">Vise</a>
                 </div>
             </div>
             <div id="menu_right">

@@ -1401,9 +1401,16 @@ img.comp_sign {margin-top:10px; float:left;}
 
 #found-dream{
     width: 85%;
-    height: 50px;
-    border: solid black 1px;
     margin-top: -35px;
+}
+
+.dream{
+    width: 100%;
+    height: 25px;
+}
+.dream a{
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 .typed-cursor{

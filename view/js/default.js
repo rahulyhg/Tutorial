@@ -125,11 +125,7 @@ $(document).ready(function(){
             }
             else if(data['success'] == true){
                 $('.content').remove();
-                CreatePanelCompatibilityContent(data['description']);
-                $("#compatibility-content").typed({
-                    strings: [data['compatibility']],
-                    typeSpeed: 0
-                });
+                CreateFoundDreamPanel(data['dream'][0]['dream_name']);
 
             }
         }).fail(function(data) {
@@ -137,9 +133,16 @@ $(document).ready(function(){
         });
     });
 
+    function CreateFoundDreamPanel(dream){
+        $('#found-dream').remove();
+        var dreamPanel = $('<div id="found-dream"><div class="dream"><a href="'+ROOT_HOST+'application/dream/show/'+dream+'">'+dream+'</a></div></div>');
+        $('.sonnik_search').after(dreamPanel);
+    }
+
     function CreatePanelCompatibilityContent(){
         var divContent = $('<div class="content"><p id="compatibility-content"></p></div>');
-        $('.num_what').after(divContent);
+
+        $('.num_what').after(divContent).show('slow');
     }
 
     function SubmitForm(formId, url){
@@ -253,22 +256,6 @@ $(document).ready(function(){
 		$('#feedback_button').click();
 		return false;
 	});
-
-	$('#word-search-button').click(function(){
-		var query = jQuery.trim($('#word-search').val());
-		if(query != ''){
-			window.location.href = '/sonnik/search/' + encodeURIComponent(query);
-		}
-		return false;
-	});
-
-	$('#word-search').keyup(function(e){
-		var query = jQuery.trim($('#word-search').val());
-		if(e.keyCode == 13 && query != ''){
-			window.location.href = '/sonnik/search/' + encodeURIComponent(query);
-		}
-	});
-
 	
 	$('#feedback-send').click(function(){
 		$.post('/index/feedback',

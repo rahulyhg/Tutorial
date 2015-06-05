@@ -12,13 +12,7 @@ echo    '
             <div id="columns">
                 <div id="column1">';
                     CreateVotePanel();
-
-                    echo '<div id="orange_menu">
-                        <div class="menu_left_item">
-                            <div id="horoscope-menu-block" class="menu_header">
-                                Гороскопы<img alt="" src="menu_arrow.png">
-                            </div>';
-
+                    CreateLeftMenuViewOnePage($allSigns, $Content);
                         echo '</div>
 
                     </div>
@@ -32,12 +26,9 @@ echo    '
                                 <button id="search-dream">Cauta</button>
                             </form>
                         </div>
-                        <div id="found-dream">
 
-                        </div>
                         <div class="sonnik_header">Cautati dupa alfabet</div>';
                         CreateAlphabeat();
-                        print_r($dreamsStartWith);
                         if(isset($_REQUEST['section3'])) {
                             echo '<div class="sonnik_here">' . strtoupper($_REQUEST['section3']) . '</div>';
                         }
@@ -47,7 +38,7 @@ echo    '
                 <div id="column3">';
                         CreatePopularItemsPanel();
                     echo '<div id="right_hrskp">
-                        <div class="actual_header">Гороскопы</div>';
+                        <div class="actual_header">Horoscop</div>';
                         foreach($allSigns as $sign){
                             CreatePanelRightHoroscopeViewOnePage($sign, $Content);
                         }
