@@ -2,14 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc96d39-da46-4f20-91e9-117af7197b32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/application-functions.php" afterPath="$PROJECT_DIR$/model/application-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/include/constructor.php" afterPath="$PROJECT_DIR$/view/include/constructor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/js/default.js" afterPath="$PROJECT_DIR$/view/js/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/application/dream/dream.php" afterPath="$PROJECT_DIR$/view/application/dream/dream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller-xhr/application/name-signification/letter.php" afterPath="$PROJECT_DIR$/controller-xhr/application/name-signification/letter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-xhr/application/name-signification/name-signification.php" afterPath="$PROJECT_DIR$/model-xhr/application/name-signification/name-signification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/application/name-signification/name-signification.php" afterPath="$PROJECT_DIR$/view/application/name-signification/name-signification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller-xhr/application/name-signification/show.php" afterPath="$PROJECT_DIR$/controller-xhr/application/name-signification/show.php" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\5501cd1e1a178.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\550345736e902.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\55034c2c5cbb8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\55041070208ad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\550411e47eb0b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\55216a5344097.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\55340791db993.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\553aaf42a033e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\5553b220777d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\articles\55544f4e63319.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\1_0.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\5276d2c2d4825.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\72_0.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\actual_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\all_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\arrow_header.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\article_nav_corner.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\big_like_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\book_interactive_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\cabinet_corner.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\cabinet_corner_full.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\card_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\card_img1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\card_place_num_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\comp_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\corner_vip.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\corner_vip_white.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\cosmo_back.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\count_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\divination_back.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\divination_cards.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\divination_header_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\divination_other.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\do_comment_img.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\enter_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\enter_form_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\enter_form_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\enter_form_top.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\feedback_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\feedback_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\footer_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\gexagramma_img1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\header_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\horoscope_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\horoscope_arrow_left_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\horoscope_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\horoscope_arrow_right_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\horoscope_sign_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\inter_header_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\libra.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\logo_footer.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\money_pole.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\more.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\num_back1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\num_back3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\num_back4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\ochepyatka.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\orange_button_content.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\orange_button_right.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\partner_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\partner_back2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\popup_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\popup_nav_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\popup_nav_back_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\profile_img_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\profile_img_content.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\profile_img_top.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\red_circle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\right_hrskp_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\rings.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\rings2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\runa_img1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\rune_interactive_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\rune_interactive_back2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\rune_place_num_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\send.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\shapka.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\signification_back_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\signification_back_content.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\signification_back_top.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\slyder_dot.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\slyder_dot_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\slyder_element_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\socnet1_min.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\socnet2_min.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\socnet3_min.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\star.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\star_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\star_active_green.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\table_interactive_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\table_item_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\table_item_back_active.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\table_num_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\taro_interactive_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\taro_interactive_back2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\tolk_num_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\triangle_white_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\up.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\vk.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\why_need_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\images\windows_closw.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\548f4a7c022b9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\5497038eef55c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\54d7cf12641bf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\551b100d2ab64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\554f52fc63b81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\5550b228bbd00.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\zodiacool\img\magic\5550d72648d5c.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/css/sonnik.css" afterPath="$PROJECT_DIR$/view/css/sonnik.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/css/style.css" afterPath="$PROJECT_DIR$/view/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,11 +153,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/js/default.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28587195" vertical-offset="2761" max-vertical-offset="12580">
-              <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="12580">
+              <caret line="164" column="35" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
               <folding>
                 <marker date="1433508581870" expanded="true" signature="14299:14309" placeholder="..." />
               </folding>
@@ -60,10 +165,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sonnik.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/css/sonnik.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="2800">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="340">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="340">
               <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
               <folding />
             </state>
@@ -73,7 +188,7 @@
       <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/show.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="260">
+            <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="260">
               <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
@@ -83,18 +198,18 @@
       <file leaf-file-name="name-signification.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/name-signification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="400">
+            <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="400">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="27163" max-vertical-offset="29080">
-              <caret line="1388" column="22" selection-start-line="1388" selection-start-column="22" selection-end-line="1388" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.40353984" vertical-offset="1452" max-vertical-offset="29080">
+              <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -103,7 +218,7 @@
       <file leaf-file-name="name-signification.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/application/name-signification/name-signification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.689655" vertical-offset="0" max-vertical-offset="1120">
+            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1120">
               <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <marker date="1433506325922" expanded="true" signature="150:353" placeholder="..." />
@@ -123,7 +238,7 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model-xhr/application/dream/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.586207" vertical-offset="0" max-vertical-offset="340">
+            <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="340">
               <caret line="11" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
@@ -133,7 +248,7 @@
       <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/application/name-signification/show.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.827586" vertical-offset="120" max-vertical-offset="2220">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2220">
               <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
               <folding>
                 <marker date="1433507055146" expanded="true" signature="153:381" placeholder="..." />
@@ -187,7 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/view/registration.php" />
         <option value="$PROJECT_DIR$/model-xhr/user/registration.php" />
         <option value="$PROJECT_DIR$/model/feedback-functions.php" />
         <option value="$PROJECT_DIR$/controller-xhr/feedback/new.php" />
@@ -234,10 +348,11 @@
         <option value="$PROJECT_DIR$/model-xhr/application/name-signification/show.php" />
         <option value="$PROJECT_DIR$/view/include/constructor.php" />
         <option value="$PROJECT_DIR$/view/application/name-signification/show.php" />
-        <option value="$PROJECT_DIR$/view/css/style.css" />
         <option value="$PROJECT_DIR$/controller-xhr/application/name-signification/search.php" />
         <option value="$PROJECT_DIR$/model-xhr/application/name-signification/search.php" />
         <option value="$PROJECT_DIR$/view/js/default.js" />
+        <option value="$PROJECT_DIR$/view/css/sonnik.css" />
+        <option value="$PROJECT_DIR$/view/css/style.css" />
       </list>
     </option>
   </component>
@@ -339,6 +454,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zodiacool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zodiacool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,20 +756,17 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -646,6 +776,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -665,11 +798,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.118229166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -679,13 +813,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -718,20 +851,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/include/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="820">
-          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-xhr/application/compatibility/calculate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="780">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="780">
@@ -881,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38202247" vertical-offset="0" max-vertical-offset="890">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,31 +1007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08988764" vertical-offset="600" max-vertical-offset="1720">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433488002174" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02247191" vertical-offset="0" max-vertical-offset="890">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.62069" vertical-offset="0" max-vertical-offset="680">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="400">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="400">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29213482" vertical-offset="0" max-vertical-offset="890">
           <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20224719" vertical-offset="0" max-vertical-offset="890">
           <caret line="9" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15730338" vertical-offset="0" max-vertical-offset="890">
           <caret line="7" column="72" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,46 +1081,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0034207525" vertical-offset="43" max-vertical-offset="2240">
           <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding>
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433498315795" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,14 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.896551" vertical-offset="310" max-vertical-offset="1200">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select name_..name_compatibility..." />
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select dream..dream..." />
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select dream..dream..." />
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select name_..name_signification..." />
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select name_..name_signification..." />
-            <marker date="1433505336976" expanded="true" signature="-1:-1" placeholder="select name_..name_signification..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,77 +1113,6 @@
             <element signature="n#CreatePanelDreams#0;n#!!top" expanded="false" />
             <element signature="n#CreatePanelNames#0;n#!!top" expanded="false" />
             <element signature="n#CreatePopularItemsPanel#0;n#!!top" expanded="false" />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506934769" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1153,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11235955" vertical-offset="0" max-vertical-offset="890">
           <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20224719" vertical-offset="0" max-vertical-offset="890">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,25 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.505618" vertical-offset="170" max-vertical-offset="1120">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433506393650" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="27163" max-vertical-offset="29080">
-          <caret line="1388" column="22" selection-start-line="1388" selection-start-column="22" selection-end-line="1388" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,13 +1142,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20224719" vertical-offset="0" max-vertical-offset="890">
           <caret line="9" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="260">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="260">
           <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
           <folding />
         </state>
@@ -1209,7 +1155,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/name-signification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="400">
+        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="400">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
@@ -1217,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/application/name-signification/name-signification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.689655" vertical-offset="0" max-vertical-offset="1120">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1120">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <marker date="1433506325922" expanded="true" signature="150:353" placeholder="..." />
@@ -1235,7 +1181,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/application/name-signification/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586" vertical-offset="120" max-vertical-offset="2220">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="2220">
           <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
           <folding>
             <marker date="1433507055146" expanded="true" signature="153:381" placeholder="..." />
@@ -1282,7 +1228,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model-xhr/application/dream/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.586207" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="340">
           <caret line="11" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
@@ -1290,7 +1236,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model-xhr/application/name-signification/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="340">
           <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
           <folding />
         </state>
@@ -1300,17 +1246,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11235955" vertical-offset="0" max-vertical-offset="890">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28587195" vertical-offset="2761" max-vertical-offset="12580">
-          <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2761" max-vertical-offset="12580">
+          <caret line="164" column="35" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
           <folding>
             <marker date="1433508581870" expanded="true" signature="14299:14309" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/images/search.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/css/sonnik.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="2800">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40353984" vertical-offset="1452" max-vertical-offset="29080">
+          <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>

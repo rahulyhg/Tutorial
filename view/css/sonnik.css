@@ -1,6 +1,3 @@
-/* ::::: http://astrotarot.ru/css/selectbox.css ::::: */
-
-/* ::::: http://astrotarot.ru/css/style.css ::::: */
 
 * { margin: 0px; padding: 0px; }
 html { height: 100%; margin: 0px; padding: 0px; }
@@ -23,7 +20,7 @@ textarea { resize: vertical; }
 #top_info { margin-bottom: 30px; font-size: 15px; }
 #logo { float: left; }
 #info_center { padding: 17px 17px 0px 27px; float: left; }
-#search { width: 483px; height: 30px; margin-bottom: 14px; background-image: url('search.png'); position: relative; }
+#search { width: 483px; height: 30px; margin-bottom: 14px; background-image: url('../images/search.png'); position: relative; }
 #input { width: 380px; margin-left: 10px; margin-top: 7px; border: medium none; background-color: transparent; color: rgb(67, 76, 93); }
 #subscribe { width: 483px; color: rgb(67, 76, 93); position: relative; }
 #subscribe span span { border-bottom: 1px dotted; }
