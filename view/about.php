@@ -8,35 +8,13 @@ echo '     <div id="content_white">
         <div id="white_space">
             <div id="deep_page">
             </div>
-            <div class="tri_header">О проекте</div>
+            <div class="tri_header">Despre proiect</div>
             <div id="columns">
                 <div id="column1">
-                    <div class="vote_ask">
-                        <div class="vote_header">Какие прогнозы вы считаете самыми правдивыми?</div>
-                        <div class="vote_content">
-                            <form action="http://astrotarot.ru/statyi/content/17-no-tag/46-o-proekte">
-                                <label>
-                                    <input name="4" type="checkbox">
-                                    <div>Прогнозы ченнелеров (контактеров с инопланетными цивилизациями)</div>
-                                </label>
-                                <label>
-                                    <input name="3" type="checkbox">
-                                    <div>Прогнозы нумерологов</div>
-                                </label>
-                                <label>
-                                    <input name="2" type="checkbox">
-                                    <div>Прогнозы астрологов</div>
-                                </label>
-                                <label>
-                                    <input name="1" type="checkbox">
-                                    <div>Прогнозы экстрасенсов</div>
-                                </label>
-                                <input id="poll" value="Голосовать" type="submit">
-                            </form>
-                        </div>
-                    </div>';
-                    CreateLeftMenuViewOnePage($allSigns, $Content);
-                        echo '
+                    ';
+CreateVotePanel();
+CreateLeftMenuViewOnePage($allSigns, $Content);
+echo '
 
 
                     </div>
@@ -46,34 +24,20 @@ echo '     <div id="content_white">
                         <div class="article_full_item">
                             <div class="data"></div>
                             <div class="item_header">Despre proiect</div>
-                            <div class="text"><p>
-                                    Проект Астро Таро посвящен самым интересным и популярным предсказательным системам, таким как астрология, нумерология, гадания на картах Таро и классических картах, руны, гадания по книге перемен И-цзын и многое другое. На Астро Таро вы можете найти онлайн гадания на картах Таро и обычных, классических картах на самые разнообразные темы, получить ответы на самые волнующие вопросы. Наш проект содержит множество разделов онлайн гаданий, посвященных самым важным жизненным сферам, таким как: любовь, отношения, здоровье, семья, дети, будущее, судьба, путешествия, поездки, работа, бизнес, карьера, недвижимость, потеря, пропажа, порча, сглаз и другие разделы, посвященные важным вопросам. А гороскопы и астрологические и нумерологические прогнозы, составленные командой опытных и профессиональных астрологов и нумерологов, помогут вам получить больше информации о себе, своих родных и близких или просто знакомых. Гороскоп, составленный по Солнечному знаку Зодиака, поможет определить характер человека, его способности, таланты, наклонности. В разделах, посвященных астрологии и нумерологии вы можете узнать астрологический и нумерологический прогноз на сегодня, завтра, месяц и год для любого знака Зодиака, а так же узнать о своем предназначении с помощью бесплатного персонального кармического гороскопа.</p>
-                                <p>
-                                    Если вы следите за ритмами Луны, на Астро Таро для вас всегда открыт самый подробный Лунный календарь. Наш Лунный календарь содержит много интересной и полезной информации о влиянии Луны, смены ее фаз и положений в знаках Зодиака. Мы постарались как можно интереснее и доступнее описать каждый Лунный день, чтобы предоставить возможность нашим посетителям заранее планировать начало новых дел и принятия важных решений. Лунный календарь стрижки, свадьбы, здоровья, зачатия, бизнеса поможет вам подобрать наиболее благоприятный день для вышеперечисленных мероприятий, а Лунный календарь садовода поможет подобрать самые благоприятные периоды для ухода за растениями. Так же вы можете получить много интересной и полезной информации о магии, узнать магические обряды и заговоры по привлечению удачи, денег, любви, здоровья и благополучия, по избавлению от негативного магического воздействия, сглаза и порчи.</p>
-                                <p>
-
+                            <div class="text">
+                                <p>Proiectul ZodiaCool este predestinat pentru cele mai interesante preziceri, precum astrologia, numerologia, ghicirea cu carti Taro si carti clasice,rune, ghicitul cu cartea schimbarilor si multe altele. Pe ZodiaCool Dumneavoastra puteti gasi preziceri online cu cartile Taro si obisnuite, puteti primi raspuns la cele mai deranjante progleme. Proiectul ZodiaCool contine multe compartimente de preziceri online, predestinate celor mai importante sfere ale vietii, precum: dragoste,relatii, sanatate, familie, copii, viitor, destin, calatorii, lucru, cariera, pierderi,deochi, vraji si alte compartimente, predestinate intrebarilor Dumneavoastra. Horoscopul si prognozele numerologice sunt create de o echipa din astrologi si numerologi profesionali, cu ajutorul lor puteti obtine mai multa informatie despte Dumnevoastra, persoanelor apropiate, prieteni si alte persoane. Horoscopul, se creeaza pe baza semnului zodiacal solar, ceea ce permite sa gasim caracterizam persoana, capacitatile ei, talentu, si inclinarile. In compartimentele predestinate numerologiei puteti afla prognoza astrologica si numerologica de azi, miine, luna si an pentru oricare semn al zodiacului, precum si carma personala.</p>
+                                <p>Daca urmatiti ciclurile Lunii, Zodiacool va ofera cel mai detaliat calendar al Lunii. Calendarul nostru contine multa informatie interesanta si utila despre efectele Lunii, schimbarile de faza si pozitia fata de zodiac. Noi ne-am straduit cit mai interesant sa descrim fiecare zi a Lunii, pentru a va oferi posibilitatea de a planifica inceputul unei noi zi si de a lua decizii importante. Calendarul frezurilor, nuntilor, sanatatii,conceptiei va va ajuta cum sa va organizati mai bine ziua din activitatile enumerate anterior, calendarul agricol va va ajuta sa gasiti o perioada perfecta pentru a avea grija de plante.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="column3">
-                    <div id="taging"><div class="actual_header">Популярные теги</div><div class="tag_item"><a href="http://astrotarot.ru/statyi/tag/56-bliznetsyi">Близнецы</a></div><div class="tag_item"><a href="http://astrotarot.ru/statyi/tag/61-skorpion">Скорпион</a></div><div class="tag_item"><a href="http://astrotarot.ru/statyi/tag/58-lev">Лев</a></div><div class="tag_item"><a href="http://astrotarot.ru/statyi/tag/27-prognozyi-i-predskazaniya">Прогнозы и предсказания</a></div><div class="clear"></div></div>		                					                					                				                				                				                				                				                		<div id="popular">
-
                     <div id="right_hrskp">
-                        <div class="actual_header">Гороскопы</div>';
-                                foreach($allSigns as $sign){
-                                    CreatePanelRightHoroscopeViewOnePage($sign, $Content);
-                                }
-                        echo '<div class="clear"></div>
-                    </div>		                				                		            <div id="banner_right_200x350" style="margin-bottom: 25px;">
-                        <a indepth="true" href="goroskop-na-god.html" target="blank">
-                            <img src="54d7d476098f4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div id="banner_right_200x350" style="margin-bottom: 25px;">
-                        <a indepth="true" href="data-svadbyi.html" target="blank">
-                            <img src="54d7cfbcd79b0.jpg" alt="">
-                        </a>
+                        <div class="actual_header">Horoscop</div>';
+foreach($allSigns as $sign){
+    CreatePanelRightHoroscopeViewOnePage($sign, $Content);
+}
+echo '<div class="clear"></div>
                     </div>
                 </div>
                 <div class="clear"></div>
