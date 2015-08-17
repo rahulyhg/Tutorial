@@ -5,4 +5,4 @@
     require_once('model/user-functions.php');
     $allSigns = GetSignList($bdd);
     $Content = parse_ini_file('language/content.ini');
-    $dream = GetDreamNameAndDescription($bdd, $_REQUEST['section3'])[0];
+    $dream = GetDreamNameAndDescription($bdd, $_REQUEST['section3']);

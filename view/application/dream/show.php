@@ -7,7 +7,7 @@ echo '
 </div>    <div id="content_white">
     <div id="content_wrap">
         <div id="white_space">
-            <div class="tri_header">'.ucfirst($dream['dream_name']).'</div>
+            <div class="tri_header">'.ucfirst($dream[0]['dream_name']).'</div>
             <div id="columns">
                 <div id="column1">';
                     CreateVotePanel();
@@ -21,7 +21,7 @@ echo '
                         <div class="sonnik_new_block">
                             <div class="sonnik_new_header">Talmacirea visului</div>
                             <div class="text">';
-                               echo '<p>'.$dream['dream_description'].'</p>';
+                               echo '<p>'.$dream[0]['dream_description'].'</p>';
                             echo '</div>
                         </div>
 
@@ -38,7 +38,7 @@ echo '
                         </div>';
                         if(!isset($_SESSION['user_id'])) {
                             echo '<div id = "comments" >
-                                <div class="item_header" > Отзывы</div >
+                                <div class="item_header" ></div >
                                 <div class="the_same_comment" >
                                     <div class="the_same_header" > Pentru a beneficia de toate serviciile noastre:</div >
                                     <div class="the_same_header" > Puteti <a class="ident-enter" href = "#" >sa intrati</a > sau <a href = "'.ROOT_HOST.'registration" > sa creati un cont nou</a ></div >

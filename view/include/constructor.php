@@ -209,13 +209,13 @@
         echo '</div>';
     }
     function CreatePanelDreams($dreams){
-        $columns = ceil(count($dreams)/40);
+        $columns = ceil(count($dreams)/60);
         echo '<div class="sonnik_list">';
                             for($i = 1; $i <= $columns; $i++) {
                                 echo '<div class="list_item">';
-                                    for($j = $columns-1 * 40; $j < $columns*40; $j++) {
+                                    for($j = ($i-1)* 60; $j < $i*60; $j++) {
                                         if(isset ($dreams[$j])) {
-                                            echo '<a href="'.ROOT_HOST.'application/dream/show/'.$dreams[$j]['dream_name'].'">' . $dreams[$j]['dream_name'] . '</a>';
+                                            echo '<a href="'.ROOT_HOST.'application/dream/show/'.iconv('UTF-8','ASCII//TRANSLIT',$dreams[$j]['dream_name']).'">' . $dreams[$j]['dream_name'] . '</a>';
                                         }
                                     }
                                 echo '</div>';
