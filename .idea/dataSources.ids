@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - zodiacool@localhost" uuid="b6dfb237-bb06-42ac-9e6c-7999bb603a41">
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="zodiacool"/>
+    <table name="article" schema="" catalog="zodiacool" type="TABLE">
+      <column name="article_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="title" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="content" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="article_id"/>
+    </table>
+    <table name="compatibility" schema="" catalog="zodiacool" type="TABLE">
+      <column name="compatibility_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="sign1" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="sign2" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="VARCHAR" precision="5000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="compatibility_id"/>
+      <foreign-key name="compatibility_ibfk_1" columns="sign1" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="compatibility_ibfk_2" columns="sign2" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="dream" schema="" catalog="zodiacool" type="TABLE">
+      <column name="dream_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="dream_name" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12"/>
+      <column name="dream_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="dream_id"/>
+    </table>
+    <table name="feedback" schema="" catalog="zodiacool" type="TABLE">
+      <column name="feedback_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="70" scale="0" nullable="false" jdbcType="12"/>
+      <column name="content" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="feedback_id"/>
+    </table>
+    <table name="horoscope" schema="" catalog="zodiacool" type="TABLE">
+      <column name="horoscope_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_sign" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <column name="horoscope_date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <primary-key name="PRIMARY" columns="horoscope_id"/>
+      <foreign-key name="horoscope_ibfk_1" columns="id_sign" ref-table="sign" ref-schema="" ref-catalog="zodiacool" ref-columns="sign_id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="name_compatibility" schema="" catalog="zodiacool" type="TABLE">
+      <column name="name_compatibility_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name_compatibility_rank" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name_compatibility_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="name_compatibility_id"/>
+    </table>
+    <table name="name_signification" schema="" catalog="zodiacool" type="TABLE">
+      <column name="name_signification_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name_signification" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name_signification_description" sqlType="VARCHAR" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="name_signification_id"/>
+    </table>
+    <table name="news" schema="" catalog="zodiacool" type="TABLE">
+      <column name="news_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="content" sqlType="VARCHAR" precision="500" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="news_id"/>
+    </table>
+    <table name="sign" schema="" catalog="zodiacool" type="TABLE">
+      <column name="sign_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="sign_name" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="sign_date" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="sign_id"/>
+      <exported-key name="compatibility_ibfk_1" table="compatibility" schema="" catalog="zodiacool" columns="sign1"/>
+      <exported-key name="compatibility_ibfk_2" table="compatibility" schema="" catalog="zodiacool" columns="sign2"/>
+      <exported-key name="horoscope_ibfk_1" table="horoscope" schema="" catalog="zodiacool" columns="id_sign"/>
+    </table>
+    <table name="user" schema="" catalog="zodiacool" type="TABLE">
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="email" sqlType="VARCHAR" precision="70" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+    </table>
+  </data-source>
+</component>
